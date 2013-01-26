@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- template edited by Tom Potter -->
+	<head>
+		<title>COGS - Cyclists of Greater Seattle </title>
+		<meta http-equiv="Content-Language" content="English" />
+		<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+		<base href=".." target="_self">
+		<link rel="stylesheet" type="text/css" href="COGSContentPages/COGSStyle.css" media="screen" />
+<script src="scripts/jquery.js"></script>
+<script src="scripts/COGS.js"></script>
+<script>function loadPROSinfo(){$("#PROSinfo").load("COGSContentPages/PROSinfo.html");}</script
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="COGSHeader"></div><script>loadCOGSHeader()</script>
+			<div id="COGSMenu"></div><script>loadCOGSMenu()</script>
+			<div id="content">
+				<div class="right">
+<!--********************** Include Statement for Content ***************-->
+<!--#include file="PROSinfo.html"-->
+<!--********************** End of copntent Division ***************-->
+					<div id="PROSinfo"></div><script>loadPROSinfo()</script>
+				</div>
+				<div class="left">
+					<div id="COGSLeft"></div><script>loadCOGSLeft()</script>
+				</div>
+				<div style="clear: both"> </div>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="COGSFooter"></div><script>loadCOGSFooter()</script>
+		</div>
+	</body>
+</html>

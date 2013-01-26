@@ -1,7 +1,4 @@
-<!--************** Javascript Code to Drive Menu  Bar ****************-->
-<script type="text/javascript">
-// Copyright 2006-2007 javascript-array.com
-
+<!--************** COGS Javascript Library ****************-->
 
 var timeout	= 500;
 var closetimer	= 0;
@@ -45,5 +42,10 @@ function mcancelclosetime()
 
 // close layer when click-out
 document.onclick = mclose; 
-</script>
-<!--************** End of Javascript Code to Drive Menu  Bar ****************-->
+
+// functions to load included documents
+function loadCOGSHeader(){$("#COGSHeader").load("COGSContentPages/IncludeFiles/Include_COGSHeader.html");}
+function loadCOGSMenu(){$("#COGSMenu").load("COGSContentPages/IncludeFiles/Include_COGSMenu.html");}
+function loadCOGSLeft(){$("#COGSLeft").load("COGSContentPages/COGSLeftContent.html");}
+function loadCOGSFooter(){$("#COGSFooter").load("COGSContentPages/IncludeFiles/Include_COGSFooter.html");}
+<!--************** End of COGS Javascript Library ****************-->
