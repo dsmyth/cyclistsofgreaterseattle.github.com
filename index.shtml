@@ -4,10 +4,15 @@
 <title>COGS - Cyclists of Greater Seattle</title>
 <meta http-equiv="Content-Language" content="English" />
 <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
-<link rel="stylesheet" type="text/css" href="COGSContentPages/COGSStyle.css" media="screen" /><!--********************** Include Statements for standard code ***************--><!--#include file="COGSContentPages/IncludeFiles/Include_COGSMenuJavaScript.js"-->
+<link rel="stylesheet" type="text/css" href="COGSContentPages/COGSStyle.css" media="screen" />
+<!--********************** Include Statements for standard code ***************-->
+<!--#include file="COGSContentPages/IncludeFiles/Include_COGSMenuJavaScript.js"-->
 </head>
 <body>
-<div id="wrap"><!--#include file="COGSContentPages/IncludeFiles/Include_COGSHeader.html"--><!--********************** Include Statement for Menu ***************--><!--#include file="COGSContentPages/IncludeFiles/Include_COGSMenu.html"-->
+<div id="wrap">
+<!--#include file="COGSContentPages/IncludeFiles/Include_COGSHeader.html"-->
+<!--********************** Include Statement for Menu ***************-->
+<!--#include file="COGSContentPages/IncludeFiles/Include_COGSMenu.html"-->
 <div id="content">
 <div class="right">
 <h2>
@@ -28,7 +33,7 @@ rides and social activities. Become a member of C.O.G.S. and you will gain frien
 <ul>
 <li>Regularly scheduled weekend day rides in Seattle and neighboring Counties. </li><br />
 <li>Regularly scheduled week night exercise rides. </li><br />
-<li style="text-align: left">Spring, Summer and Fall <a title="" href="http://www.cyclistsofgreaterseattle.org/COGSContentPages/FrameWeekendGetaways.shtml"><strong>Weekend Getaways</strong></a> to places like the Yakima Valley, Birch Bay, San Juan
+<li style="text-align: left">Spring, Summer and Fall <a title="" href="COGSContentPages/FrameWeekendGetaways.shtml"><strong>Weekend Getaways</strong></a> to places like the Yakima Valley, Birch Bay, San Juan
 
 Islands and Centralia. </li><br />
 <li style="text-align: left">Club meetings with opportunities to  meet with other members and see interesting presentations. </li><br />

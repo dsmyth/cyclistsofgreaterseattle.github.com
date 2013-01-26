@@ -15,7 +15,7 @@ var ddmenuitem	= 0;
 
 // open hidden layer
 function mopen(id)
-{	
+{
 	// cancel close timer
 	mcancelclosetime();
 
@@ -50,7 +50,7 @@ function mcancelclosetime()
 }
 
 // close layer when click-out
-document.onclick = mclose; 
+document.onclick = mclose;
 </script>
 <!--************** End of Javascript Code to Drive Menu  Bar ****************-->
 </head>
@@ -59,7 +59,7 @@ document.onclick = mclose;
 <!-- File Name Include_COGSHeader.html /--><!-- Contains standard page header for pages. /-->
 
 <div class="left">
-  <a href="http://cyclistsofgreaterseattle.org"><img alt="COGS logo" title="" src="http://cyclistsofgreaterseattle.org/COGSContentPages/Images/cogs_logo_color_140x70.jpg" width="140" height="70" /></a></div>
+  <a href="/"><img alt="COGS logo" title="" src="COGSContentPages/Images/cogs_logo_color_140x70.jpg" width="140" height="70" /></a></div>
 
 <div class="right">
 <br/><br/><font size="6"><b>Cyclists of Greater Seattle</b></font></left><br /><br />
@@ -90,7 +90,7 @@ document.onclick = mclose;
 	margin: 0 1px 0 0;
 	padding: 4px 10px;
 	width: 79px; /* was 60px */
-	background: black;	
+	background: black;
 	color: white;
 	text-align: center;
 	text-decoration: none}
@@ -131,55 +131,55 @@ document.onclick = mclose;
 <ul id="sddm" style="width:800px;margin:0 auto">
 
 <li>
-<a href="http://cyclistsofgreaterseattle.org/">Home</a>
-</li>	
+<a href="/">Home</a>
+</li>
 		<li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">COGS Rides</a>
 		<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
-		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameUpcomingRides.shtml">Upcoming Rides</a>
+		<a href="COGSContentPages/FrameUpcomingRides.shtml">Upcoming Rides</a>
                 <a href="https://www.google.com/calendar/embed?src=aeu3viiqp5qqmev0t9bvpan65g@group.calendar.google.com&amp;ctz=America/Los_Angeles&amp;gsessionid=8Iea5J4pfLvEdpOUANasQA">COGS 2011 Ride Schedule</a>
-		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameWeekendGetaways.shtml">COGS Weekend Getaways</a>
-		<a href="http://blog4cogs.wordpress.com/non-cogs-rides-we-like/" target="_blank">Non-COGS Rides We Like</a>
-		<a href="http://www.bikely.com/listpaths/srchkey/cogs/country/254/region/168" target="_blank">COGS Routes on Bikely.com</a>				</div>
+		<a href="COGSContentPages/FrameWeekendGetaways.shtml">COGS Weekend Getaways</a>
+		<a href="http://blog4cogs.wordpress.com/non-cogs-rides-we-like/" target="_self">Non-COGS Rides We Like</a>
+		<a href="http://www.bikely.com/listpaths/srchkey/cogs/country/254/region/168" target="_self">COGS Routes on Bikely.com</a>				</div>
   </li>
 	<li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Off The Bike</a>
 		<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
-		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameSocialEvents.shtml">Social Events</a>
-		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameHolidayParty.shtml">HolidayParty</a>
+		<a href="COGSContentPages/FrameSocialEvents.shtml">Social Events</a>
+		<a href="COGSContentPages/FrameHolidayParty.shtml">HolidayParty</a>
 		</div>
 	</li>
 	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">COGSBlog</a>
 
 		<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
-        <a href=" http://blog4cogs.wordpress.com" target="_blank">COGSBlog </a></div>
+        <a href=" http://blog4cogs.wordpress.com" target="_self">COGSBlog </a></div>
   </li>
   	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">Photos</a>
 
 		<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
-		<a href="http://imageevent.com/cogs" target="_blank">Photos</a></div>
+		<a href="http://imageevent.com/cogs" target="_self">Photos</a></div>
   </li>
 	<li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">Membership</a>
 		<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
-		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameMemberApp.shtml">Join Online</a>		
+		<a href="COGSContentPages/FrameMemberApp.shtml">Join Online</a>
 <!--		<a href="#">Logs/MileageLog.shtml</a>-->
-		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameMembersList.shtml">Members List</a>
-		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameCOGSTogs.shtml">COGS Togs</a>
+		<a href="COGSContentPages/FrameMembersList.shtml">Members List</a>
+		<a href="COGSContentPages/FrameCOGSTogs.shtml">COGS Togs</a>
 		</div>
 	</li>
 	<li><a href="#" onmouseover="mopen('m6')" onmouseout="mclosetime()">Resources</a>
 		<div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
-		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameShopLinks.shtml">Shops</a>		
-		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameBikeLinks.shtml">Links</a>
-		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameBylaws.shtml">Bylaws</a>
-        <a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameAboutRides.shtml">About Our Rides</a>
-        <a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameRideArchive.shtml">Ride Archive</a>
-        <a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameGetReadyToRide.shtml">Get Ready to Ride</a>
-        <a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameRideLeaderResources.shtml">Ride Leader Resources</a>
-<!--		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameCOGSWisdom.shtml">COGS Wisdom</a>-->
+		<a href="COGSContentPages/FrameShopLinks.shtml">Shops</a>
+		<a href="COGSContentPages/FrameBikeLinks.shtml">Links</a>
+		<a href="COGSContentPages/FrameBylaws.shtml">Bylaws</a>
+        <a href="COGSContentPages/FrameAboutRides.shtml">About Our Rides</a>
+        <a href="COGSContentPages/FrameRideArchive.shtml">Ride Archive</a>
+        <a href="COGSContentPages/FrameGetReadyToRide.shtml">Get Ready to Ride</a>
+        <a href="COGSContentPages/FrameRideLeaderResources.shtml">Ride Leader Resources</a>
+<!--		<a href="COGSContentPages/FrameCOGSWisdom.shtml">COGS Wisdom</a>-->
 		</div>
 	</li>
 	<li><a href="#" onmouseover="mopen('m7')" onmouseout="mclosetime()">Contact</a>
 		<div id="m7" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
-		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameContacts.shtml">COGS Board Members</a>
+		<a href="COGSContentPages/FrameContacts.shtml">COGS Board Members</a>
 		</div>
 	</li>
 </ul>
@@ -226,7 +226,7 @@ Dress warmly and fenders are recommended.</p>
 <strong>Pace:</strong> Moderate<br />
 <strong>Terrain: </strong>Some gentle hills, nothing too bad.<br />
 <strong>Distance: </strong>About 40 Miles <br />
-<strong>Map:</strong>&nbsp; Cue sheet to be provided, we'll use <a title="" target="_blank" href="http://www.bikely.com/maps/bike-path/Kenmore-Martha-Lake-Loop-Shortened222174">this route on Bikely<br />
+<strong>Map:</strong>&nbsp; Cue sheet to be provided, we'll use <a title="" target="_self" href="http://www.bikely.com/maps/bike-path/Kenmore-Martha-Lake-Loop-Shortened222174">this route on Bikely<br />
 </a><strong>Weather:</strong> Steady rain at the start postpones until next week.<br />
 <strong>Ride Leader: </strong>Jim Stewart (206)890-8411<br />
 <br />I'm kicking off my tenure by continuing the tradition started by predecessor, Louise.&nbsp; We'll even use exactly the same route: Starting from Kenmore, we'll head North to Martha Lake and then East to Cathcart and Woodinville. A coffee and warm-up stop will be about mid-ride. Please park on the street (175th)&nbsp; to the East of Logboom park so we don't use up the limited space in the parking lot. Remember your rain jackets and fenders, just in case.</p>
@@ -240,7 +240,7 @@ Dress warmly and fenders are recommended.</p>
 <strong>Map:</strong>No map, we'll stay together. <br />
 <strong>Weather:</strong> Ice cancels, rain probably goes<br />
 <strong>Ride Leader: </strong>Bill Leyrer Cell: (206) 226-8102<br />
-<br />I'm all for sanity. So at the risk of being chastised for mixing a small bit of politics with a moderate/brisk Saturday (Oct 30th) morning ride, I will lead anyone that shows up, down to Westlake Center. We will make a 30 minute stop at the <a title="" target="_blank" href="http://blogs.seattleweekly.com/dailyweekly/2010/09/rally_in_spirit_with_jon_stewa.php">Seattle Rally To Restore Sanity</a>. Then we will continue down to the waterfront and north for some quiet Magnolia streets (and optional hills) with a final stop for pie and conversation in Magnolia Village before closing the loop. We should be back before noon with about 30 miles behind us. The weather forecast currently calls for a chance of showers (50%). I'll probably show up rain or shine.</p>
+<br />I'm all for sanity. So at the risk of being chastised for mixing a small bit of politics with a moderate/brisk Saturday (Oct 30th) morning ride, I will lead anyone that shows up, down to Westlake Center. We will make a 30 minute stop at the <a title="" target="_self" href="http://blogs.seattleweekly.com/dailyweekly/2010/09/rally_in_spirit_with_jon_stewa.php">Seattle Rally To Restore Sanity</a>. Then we will continue down to the waterfront and north for some quiet Magnolia streets (and optional hills) with a final stop for pie and conversation in Magnolia Village before closing the loop. We should be back before noon with about 30 miles behind us. The weather forecast currently calls for a chance of showers (50%). I'll probably show up rain or shine.</p>
 <hr />
 <h3>Sunday the 17 of October  Heaven and Hills of Lake Forest Park / Edmonds</h3>
 <p><strong>Start Time:</strong>       10:00<br />
@@ -248,7 +248,7 @@ Dress warmly and fenders are recommended.</p>
 Pace:</strong>             Brisk<strong><br />
 Terrain: </strong>         Extra Hilly 3,400 feet of fun<strong><br />
 Distance: </strong>        37 Miles<strong><br />
-Map:</strong>              Yes, see <a href="http://www.bikely.com/maps/bike-path/COGS-Lake-Forest-Park-Edmonds-Richmond-Beach-Lake-Ballinger" title="" target="_blank">Bikely.com</a><strong><br />
+Map:</strong>              Yes, see <a href="http://www.bikely.com/maps/bike-path/COGS-Lake-Forest-Park-Edmonds-Richmond-Beach-Lake-Ballinger" title="" target="_self">Bikely.com</a><strong><br />
 Weather:</strong>          Ice cancels<br />
 <strong>Ride Leader: </strong>John Lindseth<br />
 <br />Come join me for a fun very hilly ride from the North end of Lake Washington to Northern Edmonds.
@@ -363,7 +363,7 @@ If you want to eat pie at the Black Diamond Bakery, your best bet is to start a 
 <strong>Pace:</strong> Moderate-Low Brisk<br />
 <strong>Terrain:</strong> Some hills<br />
 <strong>Leader:</strong> Louise, louise.kornreich@gmail.com<strong><br />
-Cue Sheets:</strong> print yours here:&nbsp;<a target="_blank" href="http://www.bikely.com/maps/bike-path/Coffee-Run-from-Marymoor">http://www.bikely.com/
+Cue Sheets:</strong> print yours here:&nbsp;<a target="_self" href="http://www.bikely.com/maps/bike-path/Coffee-Run-from-Marymoor">http://www.bikely.com/
 <wbr />maps/bike-path/Coffee-Run-
 <wbr />from-Marymoor</a>&nbsp;<br />
 <br />We will leave Marymoor and head out Novelty and Trilogy toward the Snoqualmie Valley, with a possible side trip to Duvall and Cherry Valley. Then, a stop at Sandy's for coffee and return via Union Hill (Seven Steps of Heaven or Hell, depending on how you feel).&nbsp;</p>
@@ -390,7 +390,7 @@ Bring two water bottles. You will need both of them for the climb up to the ridg
 <p><strong>Rain Policy</strong>: <br />
 Heavy rain cancels. If in doubt call one of the ride leaders.</p>
 <p><strong>Ride Leaders</strong><u>:</u> <br />
-This ride is sponsored by COGS and WSCC. COGS ride leader is Tom Tanner. Phone: Home 206/298.0225 Cell 206/384.9400 at&nbsp;<a target="_blank" href="mailto:tjtanner@comcast.net">tjtanner@comcast.net</a>. WSCC ride leader is Lee Derror. Cell phone is 360/271.4838 at&nbsp;<a target="_blank" href="mailto:lderror2@yahoo.com">lderror2@yahoo.com</a>. Please feel free to contact your ride leaders about the ride if you have any questions.</p>
+This ride is sponsored by COGS and WSCC. COGS ride leader is Tom Tanner. Phone: Home 206/298.0225 Cell 206/384.9400 at&nbsp;<a target="_self" href="mailto:tjtanner@comcast.net">tjtanner@comcast.net</a>. WSCC ride leader is Lee Derror. Cell phone is 360/271.4838 at&nbsp;<a target="_self" href="mailto:lderror2@yahoo.com">lderror2@yahoo.com</a>. Please feel free to contact your ride leaders about the ride if you have any questions.</p>
 <hr />
 <h3><span>Sunday, June 6th.Peninsula Century ride. </span></h3>
 <p>Meet: 8:00am, upper parking lot, Lincoln Park<br />
@@ -434,7 +434,7 @@ Pace:&nbsp;Moderate<br />
 Distance:&nbsp;35 Miles.<br />
 Terrain:&nbsp;Fairly flat with a few short hills<br />
 Rain Policy: Rain cancels<br />
-Leader:&nbsp;Mary Jo,&nbsp;<a target="_blank" href="mailto:maryjo1532@hotmail.com">maryjo1532@hotmail.com</a></p>
+Leader:&nbsp;Mary Jo,&nbsp;<a target="_self" href="mailto:maryjo1532@hotmail.com">maryjo1532@hotmail.com</a></p>
 <p>Ride Description:&nbsp;We will ride along the waterfront, to Alki and catch the 10:45am Fauntleroy Ferry to Southworth, then on to Port Orchard for lunch.&nbsp;&nbsp;&nbsp;We will then take the foot ferry to Bremerton and from there the ferry to Seattle for the short ride back to Myrtle Edwards. There will be music, the Taste of Kitsap, beer garden, the Tall Ships, and a Farmer’s Market at the Kitsap Harbor Festival in Port Orchard and Bremerton.</p>
 <p>Directions to Myrtle Edwards Park, Seattle, WA&nbsp;-&nbsp;</p>
 <p>Going south on I-5. Take Exit #167 towards Mercer Street and Seattle Center. Right on Fairview Ave N. Left on Valley Street. Valley becomes Broad Street. Right on Denny Way. Right on Western Ave W and continue as Elliott Ave W. Take right on W. Galer Street (Magnolia Bridge Exit) and STAY LEFT to circle left over Elliott Avenue and train tracks (do not go over Magnolia bridge). Turn right at stop sign and follow signs to free parking lot at north end of Myrtle Edwards Park.</p>
@@ -443,16 +443,16 @@ Leader:&nbsp;Mary Jo,&nbsp;<a target="_blank" href="mailto:maryjo1532@hotmail.co
 </div>
 <div class="left"><h2>Events of Interest</h2>
 <ul>
-<li>COGS <a title="" href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameUpcomingRides.shtml">Upcoming Rides</a></li>
-<li>COGS <a target="_blank" href="http://www.google.com/calendar/embed?src=aeu3viiqp5qqmev0t9bvpan65g%40group.calendar.google.com&amp;ctz=America/Los_Angeles">2011 Ride Schedule</a></li>
-<li>COGS <a title="" href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameSocialEvents.shtml">Social Events</a></li>
-<li>COGS <a title="" href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameHolidayParty.shtml">Holiday Party</a><font><font><font face="wp_bogus_font">&nbsp;&nbsp;&nbsp;</font></font></font><font face="wp_bogus_font">&nbsp;</font><font face="wp_bogus_font">&nbsp;</font>&nbsp;</li>
-<li>Winter activities with our affiliate, <a title="" target="_blank" href="http://www.outingclub.org">The One World Outing Club</a></li></ul>
-<p><a title="Bicycle Alliance Web Site" target="_blank" href="http://www.bicyclealliance.org"><img title="" border="0" alt="BAW logo" width="200" height="59" src="../graphics/BAW_logo_Website-200x59.jpg" /></a></p>
-<p><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FramePROSinfo.shtml"><img src="../graphics/PROS_logo_c1-200.jpg" alt="PROS logo" width="200" height="155" /></a><br />
+<li>COGS <a title="" href="COGSContentPages/FrameUpcomingRides.shtml">Upcoming Rides</a></li>
+<li>COGS <a target="_self" href="http://www.google.com/calendar/embed?src=aeu3viiqp5qqmev0t9bvpan65g%40group.calendar.google.com&amp;ctz=America/Los_Angeles">2011 Ride Schedule</a></li>
+<li>COGS <a title="" href="COGSContentPages/FrameSocialEvents.shtml">Social Events</a></li>
+<li>COGS <a title="" href="COGSContentPages/FrameHolidayParty.shtml">Holiday Party</a><font><font><font face="wp_bogus_font">&nbsp;&nbsp;&nbsp;</font></font></font><font face="wp_bogus_font">&nbsp;</font><font face="wp_bogus_font">&nbsp;</font>&nbsp;</li>
+<li>Winter activities with our affiliate, <a title="" target="_self" href="http://www.outingclub.org">The One World Outing Club</a></li></ul>
+<p><a title="Bicycle Alliance Web Site" target="_self" href="http://www.bicyclealliance.org"><img title="" border="0" alt="BAW logo" width="200" height="59" src="../graphics/BAW_logo_Website-200x59.jpg" /></a></p>
+<p><a href="COGSContentPages/FramePROSinfo.shtml"><img src="../graphics/PROS_logo_c1-200.jpg" alt="PROS logo" width="200" height="155" /></a><br />
   <br />
 </p>
-<p><a title="RAPSody Web Site" href="http://www.rapsodybikeride.com"><img title="" border="0" alt="" width="150" height="110" src="http://www.cyclistsofgreaterseattle.org/COGSContentPages/Images/rapsody_newSM.jpg" /><br />
+<p><a title="RAPSody Web Site" href="http://www.rapsodybikeride.com"><img title="" border="0" alt="" width="150" height="110" src="COGSContentPages/Images/rapsody_newSM.jpg" /><br />
 <br /></a></p><!-- Superpages Weather forecast that Tom Potter added -->
 <table border="0" cellspacing="0" cellpadding="0" width="120" height="120">
 <tbody>

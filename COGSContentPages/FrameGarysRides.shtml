@@ -4,7 +4,10 @@
 <title>COGS - Cyclists of Greater Seattle </title>
 <meta http-equiv="Content-Language" content="English" />
 <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
-<link rel="stylesheet" type="text/css" href="COGSStyle.css" media="screen" /><!--********************** Include Statements for standard code ***************--><!--#include file="IncludeFiles/Include_COGSMenuJavaScript.js"-->
+<base href=".." target="_self">
+<link rel="stylesheet" type="text/css" href="COGSContentPages/COGSStyle.css" media="screen" />
+<!--********************** Include Statements for standard code ***************-->
+<!--#include file="IncludeFiles/Include_COGSMenuJavaScript.js"-->
 </head>
 <body>
 <div id="wrap">

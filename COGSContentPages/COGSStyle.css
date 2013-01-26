@@ -33,10 +33,10 @@ border: 5px solid #000;
 #header {
 height: 150px;
 width: 800px;
-background: url(http://www.cyclistsofgreaterseattle.org/COGSContentPages/Images/SistersRide-800-150.JPG) no-repeat;
+background: url(Images/SistersRide-800-150.JPG) no-repeat;
 }
 
-#header h1 { 
+#header h1 {
 font-size: 50px;
 letter-spacing: -1px;
 line-height: 40px;
@@ -44,7 +44,7 @@ padding: 20px 0 0 10px;
 color: #FFD700;
 }
 
-#header h1 a { 
+#header h1 a {
 color: #D1DDEF;
 text-decoration: none;
 font-weight: 600;

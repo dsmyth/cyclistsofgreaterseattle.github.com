@@ -4,20 +4,26 @@
 <title>COGS - Cyclists of Greater Seattle </title>
 <meta http-equiv="Content-Language" content="English" />
 <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
-<link rel="stylesheet" type="text/css" href="COGSStyle.css" media="screen" /><!--********************** Include Statements for standard code ***************--><!--#include file="IncludeFiles/Include_COGSMenuJavaScript.js"-->
+<base href=".." target="_self">
+<link rel="stylesheet" type="text/css" href="COGSContentPages/COGSStyle.css" media="screen" />
+<!--********************** Include Statements for standard code ***************-->
+<!--#include file="IncludeFiles/Include_COGSMenuJavaScript.js"-->
 </head>
 <body>
 <div id="wrap">
 <!--#include file="IncludeFiles/Include_COGSHeader.html"-->
-<!--********************** Include Statement for Menu ***************--><!--#include file="IncludeFiles/Include_COGSMenu.html"-->
+<!--********************** Include Statement for Menu ***************-->
+<!--#include file="IncludeFiles/Include_COGSMenu.html"-->
 <div id="content">
 <div class="right">
 <!--********************** Include Statement for Content ***************-->
 <!--#include file="COGSTogs.html"-->
 <!--********************** End of copntent Division ***************-->
 </div>
-<div class="left"><!--#include file="COGSLeftContent.html"--></div>
+<div class="left">
+<!--#include file="COGSLeftContent.html"--></div>
 <div style="clear: both"> </div></div></div>
-<div id="footer"><!--#include file="IncludeFiles/Include_COGSFooter.html"--></div>
+<div id="footer">
+<!--#include file="IncludeFiles/Include_COGSFooter.html"--></div>
 </body>
 </html>

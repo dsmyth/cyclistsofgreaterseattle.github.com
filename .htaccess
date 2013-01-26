@@ -19,3 +19,4 @@ AuthGroupFile /home/cyclists/public_html/_vti_pvt/service.grp
 AddType text/html .shtml
 AddHandler server-parsed .shtml
 Options Indexes FollowSymLinks Includes
+DirectoryIndex index.html index.shtml
