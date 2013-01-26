@@ -1,0 +1,235 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Contact Form 7</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') { num = parseFloat(val);
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+  } if (errors) alert('The following error(s) occurred:\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+//-->
+</script>
+</head>
+
+<body>
+<FORM action="http://cyclistsofgreaterseattle.org/cgi-sys/FormMail.cgi"
+method="POST" name="frmContact7" id="frmContact7" onSubmit="MM_validateForm('name','','R','address','','R','city-state-zip','','R','phone1','','R','phone2','','R','phone3','','R','email2','','RisEmail','Release-Agree','','R','Release-Date','','R');return document.MM_returnValue">
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <h3 align="left">		<img src="../app-logo.JPG" width="161" height="96"><br>
+            Membership Application <font color="#FF0000">(required fields in
+            red - please use Tab key)</font></h3>
+          </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+  </blockquote>
+<table width="75%" border="0" cellpadding="0" cellspacing="0" id="tbl-Memb-Type">
+  <tr>
+    <td width="25%" height="24"><font color="#FF0000">Membership type</font>:</td>
+    <td width="44%">      <input type="radio" name="Memb-S-H" value="Memb-Single">
+      Single, Annual Fee $16.00</td>
+    <td width="31%"><p><label><input type="radio" name="Memb-New-Renewal" value="New">
+  New</label>
+      Membership</p></td>
+  </tr>
+  <tr>
+    <td height="34">&nbsp;</td>
+    <td><p>
+      <input type="radio" name="Memb-S-H" value="Memb-Household">
+      Household, Annual Fee $20.00</p></td>
+    <td><input type="radio" name="Memb-New-Renewal" value="Renewal">
+      <label>Renewal</label></td>
+  </tr>
+</table>
+<p><font color="#FF0000">Name</font>: 
+  <input name="name" type="text" id="name" size="80" maxlength="80">
+  <br>
+      <font color="#FF0000">Address:</font>    <input name="address" type="text" id="address" size="100" maxlength="100">
+      <br>
+      <font color="#FF0000">City, State, Zip: 
+      </font>
+      <input name="city-state-zip" type="text" id="city-state-zip" size="100" maxlength="100"> 
+    <br>
+      <font color="#FF0000">Contact Phone:</font> ( 
+      <input name="phone1" type="text" id="phone1" size="3" maxlength="3"> 
+    ) 
+    <input name="phone2" type="text" id="phone2" size="3" maxlength="3"> 
+    - 
+    <input name="phone3" type="text" id="phone3" size="4" maxlength="4"> 
+</p>
+<table width="728">
+  <tr>
+    <td><font color="#FF0000">E-Mail Address:</font> </td>
+    <td><input name="email" type="text" id="email2" size="50" maxlength="50"></td>
+  </tr>
+  <tr>
+    <td width="148">&nbsp;</td>
+    <td width="568">
+      <div align="left">
+    <label>
+          <input type="radio" name="Google" value="Yes">
+          <strong>YES!</strong></label>
+    - Addy my email to the COGS Google Group.</div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>
+      <div align="left">
+        <label>
+          <input type="radio" name="Google" value="No">
+          <strong>NO</strong></label>
+      <strong> THANKS!</strong>  Don't add my email.</div></td>
+  </tr>
+</table>
+<p>Additional names for Household Memberships:<br>
+      <input name="household-names" type="text" id="household-names" size="100" maxlength="100">
+      <br>
+    <br>
+    <input name="chkNoList" type="checkbox" id="chkNoList" value="no-list-true"> 
+  Please do NOT list me in the Membership Directory on the COGS website. </p>
+<p>How did you hear about COGS?
+  <input name="Hear-about" type="text" id="Hear-about" size="80" maxlength="80">
+</p>
+<p>    Cyclists of Greater Seattle is run completely by volunteers. Please indicate
+  any volunteer interest you may have:<br>
+  <br>
+      <input name="chkRideLead" type="checkbox" id="chkRideLead" value="Interest-Ride-Lead"> 
+    Ride Lead 
+    <input name="chkRideAssistant" type="checkbox" id="chkRideAssistant" value="Interest-Ride-Assistant"> 
+    Ride Assistant 
+     
+    <input name="chkWebsite" type="checkbox" id="chkWebsite" value="Interest-Website"> 
+    Website    <input name="chkEventCoordination" type="checkbox" id="chkEventCoordination" value="Interest-Event-Coordination"> 
+    Event Coordination 
+    <input name="chkMembership" type="checkbox" id="chkMembership" value="Interest-Membership"> 
+    Membership <br>
+    <input name="chkOther" type="checkbox" id="chkOther" value="Interest-Other">
+    Other
+    <input name="InterestOtherDesc" type="text" id="InterestOtherDesc" size="65" maxlength="65">
+    <br>
+    <br>
+    What pace and distance rides do you prefer? 
+    <textarea name="Pace-Distance" cols="200" id="Pace-Distance"></textarea>
+</p>
+<p align="center"><strong>CYCLISTS OF GREATER SEATTLE<br>
+  RELEASE AND WAIVER OF LIABILITY, ASSUMPTION OF RISK, AND INDEMNITY<br>
+  AND PARENTAL CONSENT AGREEMENT (&#8220;AGREEMENT&#8221;)</strong></p>
+<p align="left">    <strong><font color="#FF0000">Read carefully, then acknowledge acceptance at bottom
+    of form.</font></strong><br>
+  <br>
+  IN CONSIDERATION of being permitted to participate in any way in Cyclists
+      of Greater Seattle (&#8220;Club&#8221;) sponsored Bicycling Activities <br>
+    (&#8220;Activity&#8221;), I for myself, my personal representatives, assigns,
+      heirs, and next of kin:<br>
+      <br>
+    1. ACKNOWLEDGE, agree, and represent that I understand the nature of Bicycling
+      Activities and that I am qualified, in good health, and <br>
+    in proper physical condition to participate in such Activity. I further
+      acknowledge that the Activity will be conducted over public roads and <br>
+    facilities open to the public during the Activity and upon which the hazards
+      of traveling are to be expected. I further agree and warrant that if <br>
+    at any time I believe conditions to be unsafe, I will immediately discontinue
+      further participation in the Activity.<br>
+      <br>
+    2. FULLY UNDERSTAND that: (a) BICYCLING ACTIVITIES INVOLVE RISKS AND DANGERS
+      OF SERIOUS BODILY INJURY, INCLUDING 
+    PERMANENT DISABILITY, PARALYSIS AND DEATH (&#8220;RISKS&#8221;); (b) these
+      Risks and dangers may be caused by my own actions, or 
+    inactions, the actions or inactions of others participating in the Activity,
+      the condition in which the Activity takes place, or THE NEGLIGENCE 
+    OF THE &#8220;RELEASEES&#8221; NAMED BELOW; (c) there may be OTHER RISKS
+      AND SOCIAL AND ECONOMIC LOSSES either not known to me 
+    or not readily foreseeable at this time; and I FULLY ACCEPT AND ASSUME
+      ALL SUCH RISKS AND ALL RESPONSIBILITY FOR LOSSES, 
+    COSTS, AND DAMAGES I incur as a result of my participation in the Activity.<br>
+    <br>
+    3. HERBY RELEASE, DISCHARGE, AND COVENANT NOT TO SUE the Club, their respective
+      administrators, directors, agents, officers, <br>
+    members, volunteers, and employees, other participants, any sponsors, advertisers,
+      and if applicable, owners and lessors of premises on 
+    which the Activity takes place, (each considered one of the &#8220;RELEASEES&#8221; herein)
+      FROM ALL LIABILITY, CLAIMS, DEMANDS, LOSSES, 
+    OR DAMAGES ON MY ACCOUNT CAUSED OR ALLEGED TO BE CAUSED IN WHOLE OR IN
+      PART BY THE NEGIGENCE OF THE&#8220;
+    RELEASEES&#8221; OR OTHERWISE, INCLUDING NEGLIGENT RESCUE OPERATIONS; AND
+      I FURTHER AGREE that if, despite this RELEASE 
+    AND WAIVER OF LIABILITY, ASSUMPTION OF RISK, AND INDEMNITY AGREEMENT I,
+      or anyone on my behalf, makes a claim against 
+    any of the Releases, I WILL INDEMNIFY, SAVE, AND HOLD HARMLESS EACH OF
+      THE RELEASEES from any litigation expenses, attorney 
+    fees, loss, liability, damage, or cost which any may incur as the result
+      of such claim.<br>
+      <br>
+    I HAVE READ THIS AGREEMENT, FULLY UNDERSTAND ITS TERMS, UNDERSTAND THAT
+      I HAVE GIVEN UP SUBSTANTIAL RIGHTS BY 
+    SIGNING IT AND HAVE SIGNED IT FREELY AND WITHOUT ANY INDUCEMENT OR ASSURANCE
+      OF ANY NATURE AND INTEND IT TO 
+    BE A COMPLETE AND UNCONDITIONAL RELEASE OF ALL LIABILITY TO THE GREATEST
+      EXTENT ALLOWED BY LAW AND AGREE 
+    THAT IF ANY PORTION OF THIS AGREEMENT IS HELD TO BE INVALID THE BALANCE,
+      NOTWITHSTANDING, SHALL CONTINUE IN 
+    FULL FORCE AND EFFECT.<br>
+    <br>
+    <font color="#FF0000">Release and Waiver of Liability Acceptance (Enter &quot;I agree&quot; to accept): 
+    </font>
+    <input name="Release-Agree" type="text" id="Release-Agree" size="20" maxlength="20">
+     <font color="#FF0000">Date:</font>    <input name="Release-Date" type="text" id="Release-Date" size="20" maxlength="20">
+     <br>
+      <br>
+      <strong>MINOR RELEASE (Only if participant is under the age of 18)</strong><br>
+    <input name="Mnor-Name" type="text" id="Mnor-Name" size="50" maxlength="50">
+    And I, the minor&#8217;s parent and/or legal guardian, understand the nature of bicycling activities and the minor&#8217;s experience and capabilities and believe the minor to be qualified, in good health, and in proper physical condition to participate in such activity. I hereby release, discharge, covenant not to sue, and agree to indemnify and save and hold harmless each of the releasee&#8217;s from all liability, claims, demands, losses, or damages on the minor&#8217;s account caused or alleged to be caused in whole or in part by the negligence of the &#8220;releasees&#8221; or otherwise, including negligent rescue operations and further agree that if, despite this release, I, the minor, or anyone on the minor&#8217;s behalf makes a claim against any of the releasees named above, I will indemnify, save, and hold harmless each of the releasees from any litigation expenses, attorney fees, loss liability, damage, or cost any may incur as the result of any such claim.<br>
+      <br>
+    Printed Name Of Parent/Guardian:
+    <input name="Parent-Name" type="text" id="Parent-Name" size="80" maxlength="80">
+    <br>
+    Address: 
+    <input name="Parent-Address" type="text" id="Parent-Address" size="100" maxlength="100">
+    <br>
+    Phone: 
+    <input name="Parent-Phone" type="text" id="Parent-Phone" size="50" maxlength="50">
+    <br>
+    Parent/Guardian Acknowledgement (Enter &quot;I agree&quot; to accept):
+    <input name="parent-accept" type="text" id="parent-accept" size="30" maxlength="30"> 
+    Date: 
+    <input name="Parent-Date" type="text" id="Parent-Date" size="20" maxlength="20">
+</p>
+<p>
+  <label></label>
+  <input name="btnSubmit" type="submit" id="btnSubmit" value="Submit">         
+  <input name="btnReset" type="reset" id="btnReset" value="Reset">
+		   
+  <input type=hidden name="recipient" value="president@cyclistsofgreaterseattle.org">
+  
+  <input type=hidden name="subject" value="Test Form"> 
+  <input type=hidden name="redirect"
+value="http://cyclistsofgreaterseattle.org/MembershipTestFolder/Thanks.html">
+</p>
+</form>
+</body>
+</html>

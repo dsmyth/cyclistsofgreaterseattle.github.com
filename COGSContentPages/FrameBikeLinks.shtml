@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- template edited by Tom Potter -->
+<head>
+<title>COGS - Cyclists of Greater Seattle </title>
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+<link rel="stylesheet" type="text/css" href="COGSStyle.css" media="screen" /><!--********************** Include Statements for standard code ***************--><!--#include file="IncludeFiles/Include_COGSMenuJavaScript.js"-->
+</head>
+<body>
+<div id="wrap">
+<!--#include file="IncludeFiles/Include_COGSHeader.html"-->
+<!--********************** Include Statement for Menu ***************--><!--#include file="IncludeFiles/Include_COGSMenu.html"-->
+<div id="content">
+<div class="right">
+<!--********************** Include Statement for Content ***************-->
+<!--#include file="BikeLinks.html"-->
+<!--********************** End of copntent Division ***************-->
+</div>
+<div class="left"><!--#include file="COGSLeftContent.html"--></div>
+<div style="clear: both"> </div></div></div>
+<div id="footer"><!--#include file="IncludeFiles/Include_COGSFooter.html"--></div>
+</body>
+</html>

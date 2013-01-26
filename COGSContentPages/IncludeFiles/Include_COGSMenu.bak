@@ -1,0 +1,69 @@
+<! ********************************** COGS Menu to be Included *********************************************-->
+<style>
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 79px; /* was 60px */
+	background: black;	
+	color: white;
+	text-align: center;
+	text-decoration: none}
+
+/* Define Horizontal menu bar  Hover Color*/
+#sddm li a:hover
+{	background: Black}  /* was Black */
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #be1e2d} /* was #5970B2*/
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #EAEBD8;
+		color: #be1e2d;/* was #2875DE*/
+		font: 11px arial}
+
+	#sddm div a:hover
+	{	background: #be1e2d; /* was #49A3FF*/
+		color: #fff} /* was #fff */</style><!-- div class="sample" style="margin-bottom: 15px;height:42px;"><span -->
+<ul style="margin: 0px auto; width: 800px" id="sddm">
+<li><a href="http://cyclistsofgreaterseattle.org/">Home</a></li>	
+<li><a href="#" onmouseout="mclosetime()" onmouseover="mopen('m1')">COGS Rides</a>
+<div id="m1" onmouseout="mclosetime()" onmouseover="mcancelclosetime()"><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameUpcomingRides.shtml">Upcoming Rides</a><a href="https://www.google.com/calendar/embed?src=aeu3viiqp5qqmev0t9bvpan65g@group.calendar.google.com&amp;ctz=America/Los_Angeles&amp;gsessionid=8Iea5J4pfLvEdpOUANasQA">COGS 2012 Ride Schedule</a><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameWeekendGetaways.shtml">COGS Weekend Getaways</a><a target="_blank" href="http://blog4cogs.wordpress.com/non-cogs-rides-we-like/">Non-COGS Rides We Like</a><a target="_blank" href="http://www.bikely.com/listpaths/srchkey/cogs/country/254/region/168">COGS Routes on Bikely.com</a>				</div></li>
+<li><a href="#" onmouseout="mclosetime()" onmouseover="mopen('m2')">Off The Bike</a>
+<div id="m2" onmouseout="mclosetime()" onmouseover="mcancelclosetime()"><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameSocialEvents.shtml">Social Events</a><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameHolidayParty.shtml">HolidayParty</a></div></li>
+<li><a href="#" onmouseout="mclosetime()" onmouseover="mopen('m3')">COGSBlog</a>
+<div id="m3" onmouseout="mclosetime()" onmouseover="mcancelclosetime()"><a target="_blank" href="%20http://blog4cogs.wordpress.com">COGSBlog </a></div></li>
+<li><a href="#" onmouseout="mclosetime()" onmouseover="mopen('m4')">Photos</a>
+<div id="m4" onmouseout="mclosetime()" onmouseover="mcancelclosetime()"><a target="_blank" href="http://imageevent.com/cogs">Photos</a></div></li>
+<li><a href="#" onmouseout="mclosetime()" onmouseover="mopen('m5')">Membership</a>
+<div id="m5" onmouseout="mclosetime()" onmouseover="mcancelclosetime()"><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameMemberApp.shtml">Join Online</a>		<!--		<a href="#" _wpro_href="#">Logs/MileageLog.shtml</a>--><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameMembersList.shtml">Members List</a><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameCOGSTogs.shtml">COGS Togs</a></div></li>
+<li><a href="#" onmouseout="mclosetime()" onmouseover="mopen('m6')">Resources</a>
+<div id="m6" onmouseout="mclosetime()" onmouseover="mcancelclosetime()"><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameShopLinks.shtml">Shops</a>		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameBikeLinks.shtml">Links</a><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameBylaws.shtml">Bylaws</a><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameAboutRides.shtml">About Our Rides</a><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameRideArchive.shtml">Ride Archive</a><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameGetReadyToRide.shtml">Get Ready to Ride</a><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameRideLeaderResources.shtml">Ride Leader Resources</a><!--		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameCOGSWisdom.shtml" _wpro_href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameCOGSWisdom.shtml">COGS Wisdom</a>--></div></li>
+<li><a href="#" onmouseout="mclosetime()" onmouseover="mopen('m7')">Contact</a>
+<div id="m7" onmouseout="mclosetime()" onmouseover="mcancelclosetime()"><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameContacts.shtml">COGS Board Members</a></div></li></ul>
+<div style="clear: both"></div><! ********************************** End of Menu *********************************************-->

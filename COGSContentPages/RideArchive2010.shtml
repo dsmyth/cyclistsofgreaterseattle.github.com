@@ -1,0 +1,477 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- template edited by Tom Potter -->
+<head>
+<title>COGS - Cyclists of Greater Seattle </title>
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+<link rel="stylesheet" type="text/css" href="COGSStyle.css" media="screen" /><!--********************** Include Statements for standard code ***************--><!--************** Javascript Code to Drive Menu  Bar ****************-->
+<script type="text/javascript">
+// Copyright 2006-2007 javascript-array.com
+
+
+var timeout	= 500;
+var closetimer	= 0;
+var ddmenuitem	= 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+</script>
+<!--************** End of Javascript Code to Drive Menu  Bar ****************-->
+</head>
+<body>
+<div id="wrap">
+<!-- File Name Include_COGSHeader.html /--><!-- Contains standard page header for pages. /-->
+
+<div class="left">
+  <a href="http://cyclistsofgreaterseattle.org"><img alt="COGS logo" title="" src="http://cyclistsofgreaterseattle.org/COGSContentPages/Images/cogs_logo_color_140x70.jpg" width="140" height="70" /></a></div>
+
+<div class="right">
+<br/><br/><font size="6"><b>Cyclists of Greater Seattle</b></font></left><br /><br />
+<div style="clear: both"></div></div><br /><br /><br /><br />
+
+<div id="header">
+
+<!-- The Header in the Stylesheet only contains an image. -->
+
+</div>
+<!--********************** Include Statement for Menu ***************--><! ********************************** COGS Menu to be Included *********************************************-->
+
+<style>
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 79px; /* was 60px */
+	background: black;	
+	color: white;
+	text-align: center;
+	text-decoration: none}
+
+/* Define Horizontal menu bar  Hover Color*/
+#sddm li a:hover
+{	background: Black}  /* was Black */
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #be1e2d} /* was #5970B2*/
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #EAEBD8;
+		color: #be1e2d;/* was #2875DE*/
+		font: 11px arial}
+
+	#sddm div a:hover
+	{	background: #be1e2d; /* was #49A3FF*/
+		color: #fff} /* was #fff */
+</style>
+
+
+<!-- div class="sample" style="margin-bottom: 15px;height:42px;"><span -->
+
+<ul id="sddm" style="width:800px;margin:0 auto">
+
+<li>
+<a href="http://cyclistsofgreaterseattle.org/">Home</a>
+</li>	
+		<li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">COGS Rides</a>
+		<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameUpcomingRides.shtml">Upcoming Rides</a>
+                <a href="https://www.google.com/calendar/embed?src=aeu3viiqp5qqmev0t9bvpan65g@group.calendar.google.com&amp;ctz=America/Los_Angeles&amp;gsessionid=8Iea5J4pfLvEdpOUANasQA">COGS 2011 Ride Schedule</a>
+		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameWeekendGetaways.shtml">COGS Weekend Getaways</a>
+		<a href="http://blog4cogs.wordpress.com/non-cogs-rides-we-like/" target="_blank">Non-COGS Rides We Like</a>
+		<a href="http://www.bikely.com/listpaths/srchkey/cogs/country/254/region/168" target="_blank">COGS Routes on Bikely.com</a>				</div>
+  </li>
+	<li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Off The Bike</a>
+		<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameSocialEvents.shtml">Social Events</a>
+		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameHolidayParty.shtml">HolidayParty</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">COGSBlog</a>
+
+		<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+        <a href=" http://blog4cogs.wordpress.com" target="_blank">COGSBlog </a></div>
+  </li>
+  	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">Photos</a>
+
+		<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="http://imageevent.com/cogs" target="_blank">Photos</a></div>
+  </li>
+	<li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">Membership</a>
+		<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameMemberApp.shtml">Join Online</a>		
+<!--		<a href="#">Logs/MileageLog.shtml</a>-->
+		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameMembersList.shtml">Members List</a>
+		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameCOGSTogs.shtml">COGS Togs</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m6')" onmouseout="mclosetime()">Resources</a>
+		<div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameShopLinks.shtml">Shops</a>		
+		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameBikeLinks.shtml">Links</a>
+		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameBylaws.shtml">Bylaws</a>
+        <a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameAboutRides.shtml">About Our Rides</a>
+        <a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameRideArchive.shtml">Ride Archive</a>
+        <a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameGetReadyToRide.shtml">Get Ready to Ride</a>
+        <a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameRideLeaderResources.shtml">Ride Leader Resources</a>
+<!--		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameCOGSWisdom.shtml">COGS Wisdom</a>-->
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m7')" onmouseout="mclosetime()">Contact</a>
+		<div id="m7" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameContacts.shtml">COGS Board Members</a>
+		</div>
+	</li>
+</ul>
+<div style="clear:both"></div>
+<! ********************************** End of Menu *********************************************-->
+<div id="content">
+<div class="right">
+<!--********************** Include Statement for Content ***************-->
+<h2>
+<center>
+<h3>C.O.G.S. Ride Archive for 2010</h3></center></h2>
+
+<hr />
+
+
+<hr />
+<br />
+<p><h3>Thursday, November 25&nbsp; Thanksgiving Day Ride With The Big Turkey</h3></p>
+<p><br />
+<strong>Ride Start:</strong> Gasworks Park, Seattle .<br />
+<strong>Meet At:</strong> 9:30 AM.<br />
+<strong>Ride Pace:</strong> Moderate.<br />
+<strong>Ride Distance</strong>: About 20 Miles.<br />
+<strong>Ride Terrain:</strong> Mixed / Hilly.<br />
+<strong>Ride Leader</strong>:&nbsp; Dan Wakefield<br />
+<strong>Rain Policy</strong>: Heavy rain or Ice &amp; Snow cancels.<br />
+<strong>Ride Description</strong>: We will do a Seattle neighborhood loop with some hills and
+views to work up an appetite! Stay together with regroups and corners as needed. </p><hr />
+<h3>Thursday Nov. 11, McCollum Park to Lake Forest Park</h3>
+<p><strong>Start Time:</strong> 9:45<br />
+<strong>Meet Time:</strong> 10:00<br />
+<strong>Pace:</strong> Social/Moderate<br />
+<strong>Terrain: </strong>Rolling, partly on the Burke Gillman and Interurban Trails.<br />
+<strong>Distance: </strong>About 35 Miles <br />
+<strongDirections to Start: </strong>From I-5 take the 128 St Exit #186 head east 1/2 mile to the McCollum P&R lot.<br />
+<strong>Ride Leader: </strong>Bob Nyberg<br />
+<br />Veterans Day Ride but, don't have to be a vet to join in. Food stop at Third Place Books.
+Dress warmly and fenders are recommended.</p>
+<hr />
+<h3>Saturday November 6th - The COGS President's Ride</h3>
+<p><strong>Start Time:</strong> 9:30<br />
+<strong>Meet Time:</strong> 9:15<br />
+<strong>Start Location:</strong> Logboom Park, Kenmore<br />
+<strong>Pace:</strong> Moderate<br />
+<strong>Terrain: </strong>Some gentle hills, nothing too bad.<br />
+<strong>Distance: </strong>About 40 Miles <br />
+<strong>Map:</strong>&nbsp; Cue sheet to be provided, we'll use <a title="" target="_blank" href="http://www.bikely.com/maps/bike-path/Kenmore-Martha-Lake-Loop-Shortened222174">this route on Bikely<br />
+</a><strong>Weather:</strong> Steady rain at the start postpones until next week.<br />
+<strong>Ride Leader: </strong>Jim Stewart (206)890-8411<br />
+<br />I'm kicking off my tenure by continuing the tradition started by predecessor, Louise.&nbsp; We'll even use exactly the same route: Starting from Kenmore, we'll head North to Martha Lake and then East to Cathcart and Woodinville. A coffee and warm-up stop will be about mid-ride. Please park on the street (175th)&nbsp; to the East of Logboom park so we don't use up the limited space in the parking lot. Remember your rain jackets and fenders, just in case.</p>
+<hr />
+<h3>Saturday the 30th of October [Political] Ride for Sanity</h3>
+<p><strong>Start Time:</strong> 8:45<br />
+<strong>Start Location:</strong> Gasworks Park<br />
+<strong>Pace:</strong> Moderate - Brisk<br />
+<strong>Terrain: </strong>A few hills <br />
+<strong>Distance: </strong>About 30 Miles <br />
+<strong>Map:</strong>No map, we'll stay together. <br />
+<strong>Weather:</strong> Ice cancels, rain probably goes<br />
+<strong>Ride Leader: </strong>Bill Leyrer Cell: (206) 226-8102<br />
+<br />I'm all for sanity. So at the risk of being chastised for mixing a small bit of politics with a moderate/brisk Saturday (Oct 30th) morning ride, I will lead anyone that shows up, down to Westlake Center. We will make a 30 minute stop at the <a title="" target="_blank" href="http://blogs.seattleweekly.com/dailyweekly/2010/09/rally_in_spirit_with_jon_stewa.php">Seattle Rally To Restore Sanity</a>. Then we will continue down to the waterfront and north for some quiet Magnolia streets (and optional hills) with a final stop for pie and conversation in Magnolia Village before closing the loop. We should be back before noon with about 30 miles behind us. The weather forecast currently calls for a chance of showers (50%). I'll probably show up rain or shine.</p>
+<hr />
+<h3>Sunday the 17 of October  Heaven and Hills of Lake Forest Park / Edmonds</h3>
+<p><strong>Start Time:</strong>       10:00<br />
+<strong>Start Location:</strong>   Upper parking lot of Lake Forest Park Mall<strong><br />
+Pace:</strong>             Brisk<strong><br />
+Terrain: </strong>         Extra Hilly 3,400 feet of fun<strong><br />
+Distance: </strong>        37 Miles<strong><br />
+Map:</strong>              Yes, see <a href="http://www.bikely.com/maps/bike-path/COGS-Lake-Forest-Park-Edmonds-Richmond-Beach-Lake-Ballinger" title="" target="_blank">Bikely.com</a><strong><br />
+Weather:</strong>          Ice cancels<br />
+<strong>Ride Leader: </strong>John Lindseth<br />
+<br />Come join me for a fun very hilly ride from the North end of Lake Washington to Northern Edmonds.
+This is a challenging loop of 37 miles with 3,400 feet of climbing. Cue sheets will be provided. After the ride we will gather at the food court for refueling. I am posting this with Cascade Bicycle Club also. Cascade has another Brisk ride the same day. I expect to get back to the start about 2:00.Call me @ 206-218-5421 for questions about the ride.</p>
+<hr/>
+<h3>
+Saturday October 9 Sister Clubs Ride w/BIKES of Snohomish, Tacoma Wheelmen, West Sound, Capital Bike </h3><strong>Meet At: </strong> downtown Snohomish near the public restrooms on 1st St.<br />
+<strong>Meet time: </strong> 9:45am.<br />
+<strong>Start: </strong> 10am<br />
+<strong>Distance: </strong> 35-mile moderate pace loop or 25-mile social pace loop<br />
+<strong>Terrain: </strong> some flat, some hills <br />
+<strong>Food: </strong> bring your own snacks<br />
+<strong>Post Ride:</strong> lunch at Pizza Palace Cafe on 1st Street in Snohomich
+Both routes will showcase the beautiful Snohomish valley, are A-B terrain, and end with no-host refreshments at Pizza Palace Cafe on 1st St in Snohomish.  No food stops along the route, bring snacks if needed.<br />
+<hr />
+<h3>
+Date:  Saturday, October 2nd - Martha's Birthday Ride</h3>
+<p><strong>Meet:</strong>  8:00AM for an 8:15 Start</p>
+<p><strong>Place:  </strong>Gasworks Park
+Pace:  Moderate</p>
+<p><strong>Leader:  </strong>Martha Hines 206 200-5329</p>My birthday is this week and a need a few friends to help remind me that being 60 is not THAT old!  So I'm leading a 60 mile ride to Everett and back.  Suggested eatery is Alligator Soul, great southern food.  (In Everett??)  Here's the deets: Come prepared with extra tubes and patchkit, etc, etc., serious rain cancels.  Questions, concerns: 206 200-5329.
+
+Be there or be square!:)
+<hr />
+<h3>Saturday, September 25 - A Nice Ride to Edmonds</h3>
+Meet: 8:45AM, Phinney Center Upper Parking Lot (but park in lower)
+Start: 9:00AM
+Miles: 30 or so
+Pace: Moderate
+Terrain: some hills, nothing that will kill you or put hair on your chest
+Rain: rain cancels, clouds do not
+Leader: Louise (louise.kornreich@gmail.com)
+
+We will start out on the Interurban Trail, then make our way down to Lake WA, then gently up north and over to Edmonds for coffee. Return to Seattle via some hills and more of the Trail.
+<hr />
+<h3>Monday, September 6th The Sixth Annual Perimeter Ride of Seattle (PROS).</h3>
+<p><strong>Time:</strong> 8:00 for 8:30 start<strong><br />
+Distance:</strong> About 80 miles for the full PROS, 56 for PROS Lite.<strong><br />
+Pace:</strong> Moderate to brisk.<strong><br />
+Leader: </strong>Several ride leaders and paces to be organized.<strong><br />
+Cue Sheet: </strong>To be provided at the start and on line here.</p>
+COGS and the Bicycle Alliance presents the 2010 version of PROS, a circuit ride around the City of Seattle. <br />
+This year there will be a snack stop in Tukwila at about the 25 mile point. <br />
+After five years PROS has become a classic that is a &quot;must&quot; for Northwest cyclists. Started by Gary Strauss and Dan Wakefield in 2005, and modeled after other perimeter rides such as El Tour de Tucson, PROS circumscribes the city, following a clockwise route from the start at Discovovery Park. Seattle's hilly and ravine divided landscape makes for a challenging but very rewarding ride. You will see Seattle from all sides, including spectacular city, mountain and lake views.
+
+As in previous years, instead of using dan henry route markers there will be a cue sheet and ride leaders for multiple groups at several paces. A &quot;PROS Light&quot; route of 56 miles will also be available. Other than the Tukwila snack stop, the ride is not supported, and there will be on SAG, so you will need to be self-sufficient. Bring two tubes, a patch kit, pump and basic tools. Groups typically stop for a casual restaurant lunch at Leschi on Lake Washington.
+
+There is a map and cue sheet on Bikely but it is for the original route. A new sheet will be posted before the ride, so check back.
+
+Directions to Start: From either Ballard or downtown Seattle, take 15th West,  Exit to West Emerson onto Gilman Way, which becomes Government Way.  Continue to the Discovery Park Entrance and go through the park past the Visitor Center. Take a right following signs to get to North Parking Lot. Also see signs to Daybreak Star.
+
+Donations accepted for the Bicycle Alliance's work to make Washington State a safe place to ride.
+<hr />
+<h3>Saturday and Sunday , August 28th and 29th - RAPSody</h3>
+<p><a title="" href="http://www.rapsodybikeride.com/index.html">The annual Ride Around Puget Sound.</a> </p>
+<h3>
+<hr />
+Saturday, August 21th: Lake Chaplain</h3>
+<p><strong>Start:</strong> Harvey Field parking lot, Snohomish<br />
+<strong>Time:</strong> 8:15 for 8:30 start<br />
+<strong>Distance:</strong> About 60 miles.<br />
+<strong>Pace:</strong> Moderate to brisk.<br />
+<strong>Terrain:</strong> Lot's o' hills.<br />
+<strong>Leader:</strong> Jim Stewart 206-890-8411<br />
+<strong>Que Sheet:</strong> Provided, and&nbsp;on bilkely.com at:<strong> </strong>&nbsp;<a href="http://www.bikely.com/cuesheet/route/448685">http://www.bikely.com/cuesheet/route/448685</a><br />
+A circuit around rural Snohomish County, featuring a stop at the Sultan Bakery and an out-and-back jaunt on the four mile Lake Chaplain road. We will park and start at Harvey Field (the Snohomish Airport just south of town). Snacks at the Sultan Bakery at the 26 mile mark and Storm Lake Grocery at 48 miles. Lots o' hills! - there is about 3800 feet of climbing on the ride. Please be self sufficient and bring two spare tubes and your mini-tool kit. We will finish between 2 and 3 PM. To be ready for this ride,&nbsp; you should have comfortably completed at least a 45-mile hilly ride in under 4 hours within the last few weeks. This would be a great final prep ride if you are riding RAPSody next week.</p>
+<h3>
+<hr />
+Saturday, August 14th: Mt. Baker ride </h3>
+<p><strong>Start:</strong> Glacier, WA<br />
+<strong>Meet Point:</strong> Gasworks Park to car pool.<br />
+<strong>Time:</strong> 7:00 AM<br />
+<strong>Leader:</strong> Phi Nguyen 206-235-9251<br />
+This weekend weather forecast is sunny and warm, perfect for the gorgeous 25 mile climb to the top Artist Point Mt Baker.&nbsp; Our starting point for the ride is in the little community Glacier.&nbsp; Bring plenty of water (liquid) since I am not sure if there is any water spot along the way.&nbsp; There is water up at Artist Point; however, there is no snack bar or food vendor.&nbsp; Bring your own snack, too.&nbsp; </p>
+<p>Let's meet up at Gasworks at 7:00am to set up carpooling&nbsp; and depart at 7:15am or you can meet us up at Glacier around 9:45am.&nbsp; Ride starts shortly after and regroup at Artist Point.&nbsp; From Seattle to Glacier is about 120+ miles, approximate 2.5 hour drive.</p>
+<p>Cancel if it rains.</p>
+<h3>
+<hr />
+Saturday July 24th South Whidbey Is. Loop </h3>
+<p>Start: Mukilteo Ferry Terminal Time: Meet at 7:15 for 7:30 AM Ferry to Clinton. Bring $5.10 fare for westbound trip <br />
+Pace: Higth Moderate, Low Brisk. Other ride leader(s) welcome to lead faster group if desired<br />
+Distance: 81 miles, cue sheet and Map provided at start <br />
+Terrain: Hilly Ride Leader: Dan Wakefield 206 795 0585<br />
+Weather Policy: Heavy Rain cancells Ride <br />
+Details: Fun, scenic, challenging ride on mostly low traffic roads through Clinton, Langley, Freeland, Greenbank &amp; Coupeville. Lunch stop in Coupeville at the Knead &amp; Feed on the shores of Penn Cove, which has great soup, sandwiches and homemade pie. Be prepared with plenty of water, 2 spare tubes, patch kit and pump.&nbsp;</p>
+<hr />
+<h3>Sunday, July 18 &quot;Heaven and Hills - North End Edition&quot;</h3>
+<p>Link: http://www.bikely.com/maps/ bike-path/COGS-Lake-Forest- Park-Edmonds-Richmond-Beach- Lake-Ballinger <br />
+Distance: 37 miles <br />
+Terrain: Very Hilly <br />
+Pace: Upper Brisk Start Time: 10:00 AM <br />
+Start Location: Lake Forest Park Mall Upper Parking Lot. <br />
+Cue Sheet: Provided <br />
+Contact: John Lindseth e-mail Lindseth@uw.edu or cell phone day of ride 206-218-5421 <br />
+Description: A counter clockwise loop from Lake Forest Park mall North to North Edmunds, Down to the sound and follow the sound to Richmond Beach. Then we will round the North end of Lake Ballinger and climb over a few more hills on the way back. Food and drink at the food court after the ride for those whom are interested. We will likely stay together. I have Cue Sheets in case someone needs to break from the group. This ride does have more than it's fair share of hills, so bring strong legs and/or proper gears. </p>
+<h3>
+<hr />
+Saturday, July 17 (changed from the 10th due to closure on I-405) Summer Ride for Pie </h3>
+<p>Meet: 9 am, Black Diamond Bakery, 32805 Railroad Avenue, directions from Seattle here- allow ~45 minutes Start: 9:15 am <br />
+Distance: 50 miles <br />
+Terrain: some hills, with one long climb <br />
+Pace: Moderate-Low Brisk <br />
+Pie: two stops, Black Diamond and Enumclaw <br />
+Cue Sheet: <a href="http://www.bikely.com/maps/bike-path/COGS-Ride-for-Pie-Southend">http://www.bikely.com/maps/bike-path/COGS-Ride-for-Pie-Southend</a><br />
+Leader: Louise, <a href="mailto:louise.kornreich@gmail.com">louise.kornreich@gmail.com</a> <br />
+If you want to eat pie at the Black Diamond Bakery, your best bet is to start a ride there, purchase your pie first and pick it up when you finish the ride. We'll go from Black Diamond, north to Ravensdale, then east and south through old mining towns to make our way to Enumclaw, but not until we do a little climbing to really give you an appetite. There's good pie in Enumclaw and, if you're doing RAMROD this year, you'll want to scout it out for your post-event calorie re-load. From Enumclaw, it's all backroads and farms and lakes, plus the Green River Gorge(ous) back to Black DIamond where, if you thought ahead, you'll have pie waiting for you. </p>
+<hr />
+<h3>Saturday, June 19 COGS Coffee Run to Snoqualmie </h3>
+<p>Start: Lot K, Marymoor Park (eastern-most lot)<br />
+<strong>Time:</strong> meet at 9am, depart at 9:15<br />
+<strong>Distance:</strong> 40 miles or 50 if we feel like it<br />
+<strong>Pace:</strong> Moderate-Low Brisk<br />
+<strong>Terrain:</strong> Some hills<br />
+<strong>Leader:</strong> Louise, louise.kornreich@gmail.com<strong><br />
+Cue Sheets:</strong> print yours here:&nbsp;<a target="_blank" href="http://www.bikely.com/maps/bike-path/Coffee-Run-from-Marymoor">http://www.bikely.com/
+<wbr />maps/bike-path/Coffee-Run-
+<wbr />from-Marymoor</a>&nbsp;<br />
+<br />We will leave Marymoor and head out Novelty and Trilogy toward the Snoqualmie Valley, with a possible side trip to Duvall and Cherry Valley. Then, a stop at Sandy's for coffee and return via Union Hill (Seven Steps of Heaven or Hell, depending on how you feel).&nbsp;</p>
+<p>I will also have the COGS jerseys for you if you ordered one so come out and ride!</p>
+<hr />
+<h3>June 13th - Sunday 2010; &nbsp; &nbsp;Hurricane Ridge with Tom Tanner</h3>
+<h3>Our Annual Hurricane Ridge Challenge Ride sponsored by COGS and WSCC.</h3>
+<p><strong>Ride Description</strong>:<br />
+The ride length is 80 miles with roughly 6200 feet of climbing. The ride starts in Sequim and we warm up biking across to the Olympic National Park entrance for Hurricane Ridge. After a brief regroup for potty and water, we will climb the 17 miles up to the ridge and enjoy lunch at the top. The descent down is thrilling and after we depart the Park we will catch the Olympic Discovery Trail for the trip back to Sequim. This is a challenging but stunningly beautiful ride designed for those seeking to have fun, stay more or less together and provide mutual support. Cheers and good smiles always welcomed.&nbsp; The ride up and down the ridge offers spectacular views and vistas. The scenery along the way is terrific. It should also be noted the roughly 17 miles of road up to the Ridge was repaved a year or so ago. Lee Derror's characterization from last year: &quot;the road from the pay station to the top of hurricane is a dream come true... NEW, CLEAN pavement.&quot;</p>
+<p><strong>Start Time / Location</strong><u>:</u>&nbsp; <br />
+June 13, 2010 -Sunday starting about 9 AM at the Sequim High School parking lot (601 N. Sequin Ave, Sequim). Seattle riders take the 7:10 AM Edmonds Ferry!! After getting off the ferry, drive over to Sequim's High School. We will plan to leave shortly after all the cars carrying riders arrive from the Edmond's ferry at about 9AM.</p>
+<p><strong>Car Pooling</strong><u>:</u> <br />
+For Seattle riders let's maximize car pooling. If you don't have a car pool, consider sending a COGS email seeking a ride or volunteering to drive. &nbsp;</p>
+<p><strong>Optional Start Time / Location</strong><u>:</u> <br />
+For those who wish to skip the warm up ride, meet at the Visitor Center in Port Angeles. The riders from Sequim will arrive at approximately 10 AM. From there we can all start climbing from the Visitor Center at the bottom of Hurricane Ridge.</p>
+<p><strong>Pace</strong><u>:</u> <br />
+Moderate to brisk -&nbsp;let's have a fun pace set by the riding skills of the participants. The regrouping strategy and cue sheets for this ride facilitate riding skills from moderate to brisk. However, one should be able to sustain a long 5000+ foot climb to successful enjoy this ride. The climb up Hurricane Ride will be at each rider's individual pace.&nbsp; Some riders will more quickly ascend; others will just take their time and eventually crest the top.</p>
+<p><strong>Regroup</strong>: <br />
+We will ride about 20 miles from Sequim to the Hurricane Visitors Station at the foot of the climb. There we will regroup including a potty break and fill our water bottles. At the top of Hurricane Ridge we will regroup for lunch and to share stories of our climb. After lunch we will descend back to the Visitors Center and regroup again before heading back to Sequim via the Olympic Discovery Trail. The trail is a scenic but hilly trail with lots of small hills and rolling terrain to ride through. &nbsp;</p>
+<p><strong>Cue Sheets</strong>: <br />
+Yes, they will be provided.</p>
+<p><strong>Equipment</strong>: <br />
+Bring two water bottles. You will need both of them for the climb up to the ridge. Bring some energy food to fuel yourself during the climb. Also bring rain and cold weather riding gear. The weather can change quickly up on the Ridge, i.e. turn cold and wet quickly, and the descent requires warm gear if the weather is wet, cool or cold. Remember also you are riding in a rain forest...don't get caught unprepared. Also bring the typical pump, spare tubes and other biking gear to make yourself self sufficient. Money will be needed to pay for your Park entrance fee and for lunch at the top. This is an unsupported ride.</p>
+<p><strong>Rain Policy</strong>: <br />
+Heavy rain cancels. If in doubt call one of the ride leaders.</p>
+<p><strong>Ride Leaders</strong><u>:</u> <br />
+This ride is sponsored by COGS and WSCC. COGS ride leader is Tom Tanner. Phone: Home 206/298.0225 Cell 206/384.9400 at&nbsp;<a target="_blank" href="mailto:tjtanner@comcast.net">tjtanner@comcast.net</a>. WSCC ride leader is Lee Derror. Cell phone is 360/271.4838 at&nbsp;<a target="_blank" href="mailto:lderror2@yahoo.com">lderror2@yahoo.com</a>. Please feel free to contact your ride leaders about the ride if you have any questions.</p>
+<hr />
+<h3><span>Sunday, June 6th.Peninsula Century ride. </span></h3>
+<p>Meet: 8:00am, upper parking lot, Lincoln Park<br />
+Ferry: 7:35 AM&nbsp; Fauntleroy am to Southworth<br />
+Cost: $6.30 for round trip ferry<br />
+Distance: 100 Miles<br />
+Pace: Moderate-Low Brisk<br />
+Terrain: lots of nice rolling hills, with one steep one<br />
+Lunch: Gig Harbor<br />
+Information: <a href="http://www.active.com/triathlon/southworth-wa/peninsula-metric-century-2010">http://www.active.com/triathlon/southworth-wa/peninsula-metric-century-2010</a><br />
+Leader: Tom Tanner Phone: Home 206/298.0225 Cell 206/384.9400 at <a href="mailto:tjtanner@comcast.net">tjtanner@comcast.net</a>&nbsp; <br />
+The weather forecast is looking “good” for bike riding this coming Sunday, June 6th. Martha Hines and I are planning to do the Peninsula Century ride. Details about the ride are at the above website. We plan to do the full 100 mile, 7500 feet of climbing Century ride.</p>
+<p>We have done the ride in the past. It is a tough century with a good deal of climbing and distance to cover through some beautiful country. It is the perfect “training ride” for anyone doing the Bicycle Tour of Colorado, RAMROD, STP or any of the many other challenging adventures us crazy people sign up to do this time of the year.<br />
+&nbsp;<br />
+Our plan is to catch the Sunday, June 6th, 7:50 AM ferry in Fauntleroy to get us over to the starting point at Southworth. Please consider joining in on the fun and participating with us on this ride.</p>
+<p>It is too late to pre-register on line but you can still register the day of the ride at the Southworth starting location.</p>
+<hr />
+<p>May 30th 2010 - Sunday; 16th Annual Ramrod Training: Cle Elum to Leavenworth<br />
+Start Time: &nbsp;08:30AM<br />
+Start Location: &nbsp;Downtown Cle Elum/By bakery<br />
+Ride Leader: Monica Zaborac<br />
+Contact Phone: &nbsp;(206)226-8514<br />
+Second Ride Leader: &nbsp;Paul Fleming<br />
+Contact Phone: (206)244-0963<br />
+Distance: &nbsp;100 miles<br />
+Pace: Moderate<br />
+Terrain: Hilly<br />
+Map Available: &nbsp;No<br />
+Regroup: &nbsp;None/NA<br />
+Weather Cancels: &nbsp;Steady rain cancels</p>
+<p>&nbsp;</p>
+<p>Ride Description:<br />
+A great Ramrod/Rapsody training ride. Rain in Seattle doesn’t mean it will be raining in Cle Elum. Route will take us over scenic Blewett, formerly Swauk Pass. We’ll descend into Leavenworth for lunch. Route back will take us over “old” Blewett Pass. Dessert stop at Mineral Springs Restaurant before the final descent and headwinds into Cle Elum. Expect 6000 feet of climbing on this ride. Be prepared to be self sufficient as ride leader will not stop for mechanical break downs. Come prepared with at least 2 new tubes, a patch kit, and a pump or CO2 cartridges. Take Cle Elum exit and bakery is 2 miles or so down the main road at 1st and Peoh. When you see the Dairy Queen on the right, the bakery is just a block away on the corner on the left side of the street. Please note: Call the ride leader ONLY if you have questions about the route. Do not call about the weather as ride leader will only cancel the ride if it’s actually raining in Cle Elum at 8:30 am! Last 2 out of 4 years, it rained on the drive to Cle Elum, but stopped by the time the ride started. This is a joint ride with Cascade Bicycle Club. No cue sheet as there's only a couple turns on the route, but a partial cue sheet will be provided to those who want the backroads (last 10 miles) back to Cle Elum to bypass some of the headwinds.</p>
+<p>&nbsp;</p>
+<p>__________________________________________________________________________________________________________________________________________________________</p>
+<p>&nbsp;</p>
+<p>May 30 2010&nbsp; - Sunday &nbsp; 3 Ferries to Kitsap Harbor Festival</p>
+<p>Start: Parking area at North end of Myrtle Edwards Park (see below for directions).<br />
+Time:&nbsp;9:00&nbsp;leave 9:15am<br />
+Pace:&nbsp;Moderate<br />
+Distance:&nbsp;35 Miles.<br />
+Terrain:&nbsp;Fairly flat with a few short hills<br />
+Rain Policy: Rain cancels<br />
+Leader:&nbsp;Mary Jo,&nbsp;<a target="_blank" href="mailto:maryjo1532@hotmail.com">maryjo1532@hotmail.com</a></p>
+<p>Ride Description:&nbsp;We will ride along the waterfront, to Alki and catch the 10:45am Fauntleroy Ferry to Southworth, then on to Port Orchard for lunch.&nbsp;&nbsp;&nbsp;We will then take the foot ferry to Bremerton and from there the ferry to Seattle for the short ride back to Myrtle Edwards. There will be music, the Taste of Kitsap, beer garden, the Tall Ships, and a Farmer’s Market at the Kitsap Harbor Festival in Port Orchard and Bremerton.</p>
+<p>Directions to Myrtle Edwards Park, Seattle, WA&nbsp;-&nbsp;</p>
+<p>Going south on I-5. Take Exit #167 towards Mercer Street and Seattle Center. Right on Fairview Ave N. Left on Valley Street. Valley becomes Broad Street. Right on Denny Way. Right on Western Ave W and continue as Elliott Ave W. Take right on W. Galer Street (Magnolia Bridge Exit) and STAY LEFT to circle left over Elliott Avenue and train tracks (do not go over Magnolia bridge). Turn right at stop sign and follow signs to free parking lot at north end of Myrtle Edwards Park.</p>
+<p>&nbsp;&nbsp;&nbsp; Going north on I-5. Take Exit #165 (Seneca Street). Merge onto Seneca Street. Right on 1st Ave. Left on Denny Way. Right on Western Ave W and continue as Elliott Ave W. Take right on W. Galer Street (Magnolia Bridge Exit) and STAY LEFT to circle left over Elliott Avenue and train tracks (do not go over Magnolia bridge). Turn right at stop sign and follow signs to free parking lot at north end of Myrtle Edwards Park.</p>
+<!--********************** End of copntent Division ***************-->
+</div>
+<div class="left"><h2>Events of Interest</h2>
+<ul>
+<li>COGS <a title="" href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameUpcomingRides.shtml">Upcoming Rides</a></li>
+<li>COGS <a target="_blank" href="http://www.google.com/calendar/embed?src=aeu3viiqp5qqmev0t9bvpan65g%40group.calendar.google.com&amp;ctz=America/Los_Angeles">2011 Ride Schedule</a></li>
+<li>COGS <a title="" href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameSocialEvents.shtml">Social Events</a></li>
+<li>COGS <a title="" href="http://cyclistsofgreaterseattle.org/COGSContentPages/FrameHolidayParty.shtml">Holiday Party</a><font><font><font face="wp_bogus_font">&nbsp;&nbsp;&nbsp;</font></font></font><font face="wp_bogus_font">&nbsp;</font><font face="wp_bogus_font">&nbsp;</font>&nbsp;</li>
+<li>Winter activities with our affiliate, <a title="" target="_blank" href="http://www.outingclub.org">The One World Outing Club</a></li></ul>
+<p><a title="Bicycle Alliance Web Site" target="_blank" href="http://www.bicyclealliance.org"><img title="" border="0" alt="BAW logo" width="200" height="59" src="../graphics/BAW_logo_Website-200x59.jpg" /></a></p>
+<p><a href="http://cyclistsofgreaterseattle.org/COGSContentPages/FramePROSinfo.shtml"><img src="../graphics/PROS_logo_c1-200.jpg" alt="PROS logo" width="200" height="155" /></a><br />
+  <br />
+</p>
+<p><a title="RAPSody Web Site" href="http://www.rapsodybikeride.com"><img title="" border="0" alt="" width="150" height="110" src="http://www.cyclistsofgreaterseattle.org/COGSContentPages/Images/rapsody_newSM.jpg" /><br />
+<br /></a></p><!-- Superpages Weather forecast that Tom Potter added -->
+<table border="0" cellspacing="0" cellpadding="0" width="120" height="120">
+<tbody>
+<tr>
+<td bgcolor="#000066"><img alt="" width="3" height="20" src="http://img.superpages.com/images-yp/decor/images/spacer.gif" /></td>
+<td bgcolor="#000066" height="20" nowrap="nowrap" align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><a target="_top" href="http://www.superpages.com/cities/weatherforecast.html"><font color="#ffffff">SuperPages Weather</font></a></font></td>
+<td bgcolor="#000066"><img alt="" width="3" height="1" src="http://img.superpages.com/images-yp/decor/images/spacer.gif" /></td></tr>
+<tr>
+<td><img alt="" width="3" height="20" src="http://img.superpages.com/images-yp/decor/images/spacer.gif" /></td>
+<td valign="middle" colspan="2"><font size="2" face="Arial, Helvetica, sans-serif"><strong><a target="_top" href="http://www.superpages.com/cities/cp/wa/seattle"><font color="#000000">Seattle</font></a></strong></font><font color="#333333" size="1" face="Arial, Helvetica, sans-serif"></font></td></tr>
+<tr>
+<td colspan="3">
+<nolayer>
+<iframe vspace="0" height="80" marginheight="0" frameborder="0" width="123" marginwidth="0" scrolling="no" hspace="0" src="http://www.superpages.com/cities/console.pl?T=Seattle&amp;S=WA&amp;filename=Seattle-weather-WA.html&amp;Z=WAZ007&#13;&#10;&amp;W=n120x120">&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a href=&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;http://www.superpages.com/cities/weatherforecast.html&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _wpro_href=&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;http://www.superpages.com/cities/weatherforecast.html&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src=&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;http://img.superpages.com/cities/weathericons/console.gif&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; _wpro_src=&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;http://img.superpages.com/cities/weathericons/console.gif&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; border=0 alt=&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;SuperPages.com Weather for Seattle WA&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;br&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Weather Forecasts&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&ampamp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</iframe></nolayer>
+<ilayer id="con" height="80" width="123" visibility="hide"></ilayer><br />
+<layer src="http://www.superpages.com/cities/console.pl?T=Seattle&amp;S=WA&amp;filename=Seattle-weather-WA.html&amp;Z=WAZ007&#13;&#10;&amp;W=n120x120" height="80" width="123" visibility="hide" clip="123,80" onload="moveToAbsolute(con.pageX, con.pageY); visibility='show';"></layer></td></tr></tbody></table></div>
+<div style="clear: both"> </div></div></div>
+<div id="footer"><p><a href="http://jigsaw.w3.org/css-validator/"><img style="border: 0pt none ; width: 88px; height: 31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a></p>
+
+Designed by <a href="http://www.free-css-templates.com/">Free CSS Templates</a></div>
+</body>
+</html>
