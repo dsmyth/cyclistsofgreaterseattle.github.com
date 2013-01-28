@@ -1,0 +1,1487 @@
+<html>
+
+<head>
+<meta name=Title content="COGS 2013 Ride Schedule">
+<meta name=Keywords content="">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 14">
+<link rel=File-List href="COGS2013RideSchedule_files/filelist.xml">
+<title>COGS 2013 Ride Schedule</title>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.25in .5in .25in .5in;
+	mso-header-margin:0in;
+	mso-footer-margin:0in;
+	mso-page-numbers-start:1;}
+.style54
+	{color:blue;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"Helvetica Neue";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:Hyperlink;
+	mso-style-id:8;}
+a:link
+	{color:blue;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"Helvetica Neue";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+a:visited
+	{color:purple;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"Helvetica Neue";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.style0
+	{text-align:general;
+	vertical-align:top;
+	white-space:nowrap;
+	mso-rotate:0;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Helvetica Neue";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Helvetica Neue";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl65
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:"d\\-mmm";
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl66
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl67
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl68
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:"Short Date";
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl69
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid windowtext;
+	white-space:normal;}
+.xl70
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-weight:700;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl71
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-weight:700;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl72
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:"d\\-mmm";
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:#CCFFFF;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl73
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:#CCFFFF;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl74
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid windowtext;
+	background:#CCFFFF;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl75
+	{mso-style-parent:style54;
+	color:blue;
+	text-decoration:underline;
+	text-underline-style:single;
+	border:.5pt solid windowtext;
+	background:#CCFFFF;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl76
+	{mso-style-parent:style54;
+	color:blue;
+	text-decoration:underline;
+	text-underline-style:single;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl77
+	{mso-style-parent:style54;
+	color:blue;
+	font-size:10.0pt;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl78
+	{mso-style-parent:style54;
+	color:blue;
+	text-decoration:underline;
+	text-underline-style:single;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl79
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:"d\\-mmm";
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:#FFCC99;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl80
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:#FFCC99;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl81
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid windowtext;
+	background:#FFCC99;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl82
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:"d\\-mmm";
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:#FCF305;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl83
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:#FCF305;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl84
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid windowtext;
+	background:#FCF305;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl85
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:"d\\-mmm";
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl86
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl87
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl88
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:"d\\-mmm";
+	text-align:left;
+	border:.5pt solid windowtext;
+	background:#CCFFFF;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl89
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl90
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl91
+	{mso-style-parent:style0;
+	color:black;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border:.5pt solid windowtext;
+	white-space:normal;}
+-->
+</style>
+</head>
+
+<body link=blue vlink=purple class=xl69>
+
+<table border=0 cellpadding=0 cellspacing=0 width=940 style='border-collapse:
+ collapse;table-layout:fixed;width:940pt'>
+ <col class=xl69 width=71 style='mso-width-source:userset;mso-width-alt:2596;
+ width:71pt'>
+ <col class=xl69 width=60 style='mso-width-source:userset;mso-width-alt:2194;
+ width:60pt'>
+ <col class=xl69 width=176 style='mso-width-source:userset;mso-width-alt:6436;
+ width:176pt'>
+ <col class=xl69 width=80 style='mso-width-source:userset;mso-width-alt:2925;
+ width:80pt'>
+ <col class=xl69 width=70 style='mso-width-source:userset;mso-width-alt:2560;
+ width:70pt'>
+ <col class=xl69 width=77 style='mso-width-source:userset;mso-width-alt:2816;
+ width:77pt'>
+ <col class=xl69 width=59 style='mso-width-source:userset;mso-width-alt:2157;
+ width:59pt'>
+ <col class=xl69 width=85 style='mso-width-source:userset;mso-width-alt:3108;
+ width:85pt'>
+ <col class=xl69 width=262 style='mso-width-source:userset;mso-width-alt:9581;
+ width:262pt'>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl68 width=71 style='height:13.0pt;width:71pt'>1/24/13</td>
+  <td class=xl66 width=60 style='border-left:none;width:60pt'>&nbsp;</td>
+  <td class=xl67 width=176 style='border-left:none;width:176pt'>&nbsp;</td>
+  <td class=xl67 width=80 style='border-left:none;width:80pt'>&nbsp;</td>
+  <td class=xl66 width=70 style='border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl66 width=77 style='border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl66 width=59 style='border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl67 width=85 style='border-left:none;width:85pt'>&nbsp;</td>
+  <td class=xl67 width=262 style='border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl70 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>DATE</td>
+  <td class=xl70 width=60 style='border-top:none;border-left:none;width:60pt'>DAY</td>
+  <td class=xl71 width=176 style='border-top:none;border-left:none;width:176pt'>RIDE
+  DESCRIPTION</td>
+  <td class=xl71 width=80 style='border-top:none;border-left:none;width:80pt'>RIDE
+  LEADER</td>
+  <td class=xl70 width=70 style='border-top:none;border-left:none;width:70pt'>DISTANCE<br>
+  (in Miles)</td>
+  <td class=xl70 width=77 style='border-top:none;border-left:none;width:77pt'>ELEVATION</td>
+  <td class=xl70 width=59 style='border-top:none;border-left:none;width:59pt'>PACE</td>
+  <td class=xl71 width=85 style='border-top:none;border-left:none;width:85pt'>START
+  LOCATION</td>
+  <td class=xl71 width=262 style='border-top:none;border-left:none;width:262pt'>WEBSITE
+  LINK</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>9-Feb</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Edmonds</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Brian
+  Anderson</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>45</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>2000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>HM/LB</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Gasworks
+  Park</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>16-Feb</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>COGS
+  President's Ride (Route TBD)</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Bruce
+  Benard</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>40
+  +/-</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>1000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Gasworks
+  Park</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>23-Feb</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Bainbridge
+  Island Ride</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Bill
+  Leyrer</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>30-35<span
+  style="mso-spacerun:yes"> </span></td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>3000+</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>your
+  choice</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Coleman
+  Dock</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl72 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>24-Feb</td>
+  <td class=xl73 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl74 width=176 style='border-top:none;border-left:none;width:176pt'>Chilly
+  Hilly</td>
+  <td class=xl74 width=80 style='border-top:none;border-left:none;width:80pt'>Information
+  Only</td>
+  <td class=xl73 width=70 style='border-top:none;border-left:none;width:70pt'>33</td>
+  <td class=xl73 width=77 style='border-top:none;border-left:none;width:77pt'>3000+</td>
+  <td class=xl73 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl74 width=85 style='border-top:none;border-left:none;width:85pt'>Coleman
+  Dock</td>
+  <td class=xl75 width=262 style='border-top:none;border-left:none;width:262pt'><a
+  href="http://shop.cascade.org/content/events/chilly-hilly">http://shop.cascade.org/content/events/chilly-hilly</a></td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>2-Mar</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Ride
+  Around South End of Lake WA</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Bill
+  Leyrer</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>40
+  - 45</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>1500</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>B</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Gasworks
+  Park</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>3-Mar</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Tully’s
+  - Kent</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Martha
+  Hines</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>50</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>1000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Tully’s
+  SODO at Airport Way</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>9-Mar</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Gasworks
+  Park - West Seattle</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Brian
+  Anderson</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>40
+  - 45</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>1200</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>HM/LB</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Gasworks
+  Park</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl65 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>10-Mar</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Open
+  Sunday</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>&nbsp;</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>&nbsp;</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=39 style='height:39.0pt'>
+  <td height=39 class=xl72 width=71 style='height:39.0pt;border-top:none;
+  width:71pt'>3/9 - 3/10</td>
+  <td class=xl73 width=60 style='border-top:none;border-left:none;width:60pt'>Sat/Sun</td>
+  <td class=xl74 width=176 style='border-top:none;border-left:none;width:176pt'>Cascade
+  Bike Expo</td>
+  <td class=xl74 width=80 style='border-top:none;border-left:none;width:80pt'>Information
+  Only</td>
+  <td class=xl73 width=70 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl73 width=77 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl73 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl74 width=85 style='border-top:none;border-left:none;width:85pt'>Smith
+  Cove Cruise Terminal</td>
+  <td class=xl74 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>16-Mar</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>McClinchy
+  Mile</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Bill
+  Leyrer</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>27,33,
+  46</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>500-2000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>your
+  choice</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Arlington,
+  WA</td>
+  <td class=xl76 width=262 style='border-top:none;border-left:none;width:262pt'><a
+  href="http://www.bikesclub.org/mcclinchy">http://www.bikesclub.org/mcclinchy</a></td>
+ </tr>
+ <tr height=52 style='height:52.0pt'>
+  <td height=52 class=xl65 width=71 style='height:52.0pt;border-top:none;
+  width:71pt'>23-Mar</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Gary's
+  ride - east side challenge</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Ron
+  Tazuma</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>56</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>3000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>B</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Park
+  &amp; Ride Exit 9 off I-405</td>
+  <td class=xl77 width=262 style='border-top:none;border-left:none;width:262pt'><a
+  href="http://cyclistsofgreaterseattle.org/COGSContentPages/CuesAndMaps/GarysRides/EasideChallenge1.tif"
+  target="_parent"><span style='font-size:10.0pt;font-family:Verdana;
+  mso-generic-font-family:auto;mso-font-charset:0'>http://cyclistsofgreaterseattle.org/COGSContentPages/CuesAndMaps/GarysRides/EasideChallenge1.tif<span
+  style="mso-spacerun:yes">    </span><br>
+  </span></a></td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>24-Mar</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>West
+  Seattle - Burien - Three Tree Point</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Bob
+  Arima</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>45</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>1900</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>HM/LB</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Gasworks
+  Park</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl72 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>24-Mar</td>
+  <td class=xl73 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl74 width=176 style='border-top:none;border-left:none;width:176pt'>Bike
+  Works Auction &amp; Dinner</td>
+  <td class=xl74 width=80 style='border-top:none;border-left:none;width:80pt'>Information
+  Only</td>
+  <td class=xl73 width=70 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl73 width=77 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl73 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl74 width=85 style='border-top:none;border-left:none;width:85pt'>&nbsp;</td>
+  <td class=xl74 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl65 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>30-Mar</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Black
+  Diamond Bakery Ride</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Martha
+  Hines</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>50</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>1000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Issaquah</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl72 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>31-Mar</td>
+  <td class=xl73 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl74 width=176 style='border-top:none;border-left:none;width:176pt'>Easter</td>
+  <td class=xl74 width=80 style='border-top:none;border-left:none;width:80pt'>Information
+  Only</td>
+  <td class=xl73 width=70 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl73 width=77 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl73 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl74 width=85 style='border-top:none;border-left:none;width:85pt'>&nbsp;</td>
+  <td class=xl74 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>6-Apr</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Indianola/Hansville
+  Loop Ride</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>TBD</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>40</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>2800</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Edmonds
+  Ferry Landing</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl65 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>7-Apr</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'><span
+  style="mso-spacerun:yes"> </span>Normandy Park Des Moines</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Bob
+  Arima</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>50</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>2200</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>HM/LB</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Gasworks
+  Park</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>13-Apr</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Old
+  MOHAI to Issaquah</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Martha
+  Hines</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>40</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>2000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Old
+  MOHAI Site</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl72 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>14-Apr</td>
+  <td class=xl73 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl74 width=176 style='border-top:none;border-left:none;width:176pt'>Daffodil
+  Classic</td>
+  <td class=xl74 width=80 style='border-top:none;border-left:none;width:80pt'>Information
+  Only</td>
+  <td class=xl73 width=70 style='border-top:none;border-left:none;width:70pt'>40,62,
+  102</td>
+  <td class=xl73 width=77 style='border-top:none;border-left:none;width:77pt'>varies</td>
+  <td class=xl73 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl74 width=85 style='border-top:none;border-left:none;width:85pt'>Orting
+  High School</td>
+  <td class=xl74 width=262 style='border-top:none;border-left:none;width:262pt'>Tacoma
+  Wheelmen</td>
+ </tr>
+ <tr height=39 style='height:39.0pt'>
+  <td height=39 class=xl73 width=71 style='height:39.0pt;border-top:none;
+  width:71pt'>4/18 - 4/21</td>
+  <td class=xl73 width=60 style='border-top:none;border-left:none;width:60pt'>Thurs
+  - Sun</td>
+  <td class=xl74 width=176 style='border-top:none;border-left:none;width:176pt'>Northwest
+  Crank Event</td>
+  <td class=xl74 width=80 style='border-top:none;border-left:none;width:80pt'>Information
+  Only (Bill Leyrer)</td>
+  <td class=xl73 width=70 style='border-top:none;border-left:none;width:70pt'>varies</td>
+  <td class=xl73 width=77 style='border-top:none;border-left:none;width:77pt'>varies</td>
+  <td class=xl73 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl74 width=85 style='border-top:none;border-left:none;width:85pt'>Wenatchee,
+  WA</td>
+  <td class=xl75 width=262 style='border-top:none;border-left:none;width:262pt'><a
+  href="http://www.northwestcrank.com/">http://www.northwestcrank.com/</a></td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>20-Apr</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Cougar
+  Mountain</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Ron
+  Tazuma</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>50
+  +/-</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>5000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>B</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Leschi
+  Market &amp; Starbucks</td>
+  <td class=xl78 width=262 style='border-top:none;border-left:none;width:262pt'><a
+  href="http://www.bikely.com/maps/bike-path/copy-of-4-climbs-on-cougar-mountain">http://www.bikely.com/maps/bike-path/copy-of-4-climbs-on-cougar-mountain</a></td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl65 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>21-Apr</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Open
+  Sunday</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>&nbsp;</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>&nbsp;</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=39 style='height:39.0pt'>
+  <td height=39 class=xl65 width=71 style='height:39.0pt;border-top:none;
+  width:71pt'>27-Apr</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Snohomish
+  &amp; Arlington</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Jim
+  Stewart</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>58</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>2000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>B</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Maple
+  Ave &amp;10 Ave, Snohomish</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>27-Apr</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Lopez
+  Island Ride</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Dennis
+  Counts</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>45</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>TBD</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Anacortes
+  Ferry</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>4-May</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Point
+  Defiance- Vashon Island</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Ken
+  Winkenweder</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>70</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>3500</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>HM/LB</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Gasworks
+  Park</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>5-May</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>May
+  Day Metric (Phil's Cyclery)</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Bob
+  Nyberg</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>52,
+  70, 104</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>Varies</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>Varies</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Phil's
+  Cyclery, Federal Way</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl65 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>11-May</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Skagit
+  Spring Classic</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Bob
+  Nyberg</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>62
+  &amp; 100</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>varies</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>Varies</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Burlington,
+  WA</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>Skagit
+  Bicycle Club</td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl65 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>11-May</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Lake
+  Washington Loop</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Peter
+  Krippner</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>60</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>1850</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Gasworks
+  Park</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=91 style='height:91.0pt'>
+  <td height=91 class=xl65 width=71 style='height:91.0pt;border-top:none;
+  width:71pt'>12-May</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Barlow
+  Pass (Big4MTN) Ride</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Martha
+  Hines</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>50
+  +/-</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>2000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Machias
+  Station - Sno Ho</td>
+  <td class=xl76 width=262 style='border-top:none;border-left:none;width:262pt'>http://cyclistsofgreaterseattle.org/COGSContentPages/CuesAndMaps/GarysRides/EasideChallenge1.tif
+  http://cyclistsofgreaterseattle.org/COGSContentPages/CuesAndMaps/GarysRides/EasideChallenge1.tif<span
+  style="mso-spacerun:yes">    </span><br>
+  </td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl79 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>5/17-18-19</td>
+  <td class=xl80 width=60 style='border-top:none;border-left:none;width:60pt'>Fri
+  - Sun</td>
+  <td class=xl81 width=176 style='border-top:none;border-left:none;width:176pt'>Potholes
+  Reservoir &amp; Columbia Wildlife Refuge</td>
+  <td class=xl81 width=80 style='border-top:none;border-left:none;width:80pt'>Mary
+  Jo<span style="mso-spacerun:yes"> </span></td>
+  <td class=xl80 width=70 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl80 width=77 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl80 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl81 width=85 style='border-top:none;border-left:none;width:85pt'>&nbsp;</td>
+  <td class=xl81 width=262 style='border-top:none;border-left:none;width:262pt'>contact
+  maryjo1532@hotmail.com for details</td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl65 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>18-May</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Kingston
+  to Port Townsend</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Lee
+  Derror</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>84</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>tbd</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>HM/LB</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Kingston
+  Ferry</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl65 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>19-May</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Open
+  Sunday</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>&nbsp;</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>&nbsp;</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>25-May</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Old
+  Blewett Pass to Leavenworth</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Bill
+  Leyrer</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>80</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>6000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M+</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Old
+  Blewett Pass Hiway</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>27-May</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Mon</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>7
+  Hills of Kirkland (Memorial Day)</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Bruce
+  Benard</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>38,
+  59, 99</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>varies</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>Varies</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Kirkland,
+  WA</td>
+  <td class=xl76 width=262 style='border-top:none;border-left:none;width:262pt'>http://www.7hillskirkland.org/</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>1-Jun</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Tahuya
+  Hills/Seabeck and Dewatto Hills</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Ralph
+  Nussbaum</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>80</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>5000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>HM/LB</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Fauntleroy
+  Ferry Park</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>1-Jun</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Carol's
+  Easier Version of Tahuya Ride</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Carol
+  Nussbaum</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>TBD</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>TBD</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Fauntleroy
+  Ferry Park</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl72 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>2-Jun</td>
+  <td class=xl73 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl74 width=176 style='border-top:none;border-left:none;width:176pt'>Peninsula
+  Century</td>
+  <td class=xl74 width=80 style='border-top:none;border-left:none;width:80pt'>Information
+  Only</td>
+  <td class=xl73 width=70 style='border-top:none;border-left:none;width:70pt'>44,
+  62, 100</td>
+  <td class=xl73 width=77 style='border-top:none;border-left:none;width:77pt'>varies</td>
+  <td class=xl73 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl74 width=85 style='border-top:none;border-left:none;width:85pt'>Southworth
+  Ferry Landing</td>
+  <td class=xl74 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl72 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>8-Jun</td>
+  <td class=xl73 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl74 width=176 style='border-top:none;border-left:none;width:176pt'>Flying
+  Wheels</td>
+  <td class=xl74 width=80 style='border-top:none;border-left:none;width:80pt'>Information
+  Only</td>
+  <td class=xl73 width=70 style='border-top:none;border-left:none;width:70pt'>varies</td>
+  <td class=xl73 width=77 style='border-top:none;border-left:none;width:77pt'>varies</td>
+  <td class=xl73 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl74 width=85 style='border-top:none;border-left:none;width:85pt'>Marymoor
+  Park</td>
+  <td class=xl74 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>8-Jun</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat<span
+  style="mso-spacerun:yes"> </span></td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Whidbey
+  Island-Pt Townsend-Kingston-and Back</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Bruce
+  Benard</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>95</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>4000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Mukilteo
+  Ferry</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>9-Jun</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>TBD<span
+  style="mso-spacerun:yes"> </span></td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Martha
+  Hines &amp; Holly Young</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>50</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>1500</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Gas
+  Works</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl79 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>6/14-15-16-17</td>
+  <td class=xl80 width=60 style='border-top:none;border-left:none;width:60pt'>Fri
+  - Mon</td>
+  <td class=xl81 width=176 style='border-top:none;border-left:none;width:176pt'>Hood
+  River &amp; The Dalles</td>
+  <td class=xl81 width=80 style='border-top:none;border-left:none;width:80pt'>Mary
+  Jo<span style="mso-spacerun:yes"> </span></td>
+  <td class=xl80 width=70 style='border-top:none;border-left:none;width:70pt'>&nbsp;</td>
+  <td class=xl80 width=77 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl80 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl81 width=85 style='border-top:none;border-left:none;width:85pt'>&nbsp;</td>
+  <td class=xl81 width=262 style='border-top:none;border-left:none;width:262pt'>contact
+  maryjo1532@hotmail.com for details</td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl65 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>15-Jun</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Centennial
+  Trail</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Peter
+  Krippner</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>50</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>650</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>HM/LB</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Snohomish</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>15-Jun</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Hurricane
+  Ridge Ride</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Tom
+  Tanner</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>80+</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>6000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M
+  to B</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Sequim,
+  WA</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>Will
+  be done in partnership with West Sound Triathlon Club</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>22-Jun</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Around
+  the Hood Canal Ride<span style="mso-spacerun:yes"> </span></td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Lee
+  Derror</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>125</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>5300</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>HM/LB</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Coleman
+  Dock</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>Will
+  be done in partnership with West Sound Cycling Club</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>22-Jun</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Port
+  Gamble Ride - Pt. Townsend</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Carol
+  Nussbaum</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>50</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Coleman
+  Dock</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl72 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>22-Jun</td>
+  <td class=xl73 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl74 width=176 style='border-top:none;border-left:none;width:176pt'>Tour
+  de Blast</td>
+  <td class=xl74 width=80 style='border-top:none;border-left:none;width:80pt'>Information
+  Only</td>
+  <td class=xl73 width=70 style='border-top:none;border-left:none;width:70pt'>82</td>
+  <td class=xl73 width=77 style='border-top:none;border-left:none;width:77pt'>7000</td>
+  <td class=xl73 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl74 width=85 style='border-top:none;border-left:none;width:85pt'>Toutle,
+  WA</td>
+  <td class=xl75 width=262 style='border-top:none;border-left:none;width:262pt'>http://www.tourdeblast.com/</td>
+ </tr>
+ <tr height=39 style='height:39.0pt'>
+  <td height=39 class=xl82 width=71 style='height:39.0pt;border-top:none;
+  width:71pt'>6/29-7/7</td>
+  <td class=xl83 width=60 style='border-top:none;border-left:none;width:60pt'>Sat
+  - Sun</td>
+  <td class=xl84 width=176 style='border-top:none;border-left:none;width:176pt'>Washington
+  - B.C. 8 Day Tour</td>
+  <td class=xl84 width=80 style='border-top:none;border-left:none;width:80pt'>Ralph
+  &amp; Carol Nussbaum</td>
+  <td class=xl83 width=70 style='border-top:none;border-left:none;width:70pt'>430</td>
+  <td class=xl83 width=77 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl83 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl84 width=85 style='border-top:none;border-left:none;width:85pt'>Republic,
+  WA (eastern Washington)</td>
+  <td class=xl84 width=262 style='border-top:none;border-left:none;width:262pt'>see
+  COGS website for details</td>
+ </tr>
+ <tr height=39 style='height:39.0pt'>
+  <td height=39 class=xl65 width=71 style='height:39.0pt;border-top:none;
+  width:71pt'>6-Jul</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Vashon
+  Island</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Richard
+  Petters</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>40
+  - 60</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>4000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>HM/LB</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Fauntleroy
+  Ferry</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>Meet
+  and sign in on the ferry.<span style="mso-spacerun:yes">  </span>Time
+  TBD.<span style="mso-spacerun:yes">  </span>Park in the larger of the two
+  parking lots north of the ferry landing</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>13-Jul</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Whidbey
+  Island</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>TBD</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>80</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>5400</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Mukilteo
+  Ferry Dock</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl73 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>7/13 - 7/14</td>
+  <td class=xl73 width=60 style='border-top:none;border-left:none;width:60pt'>Sat/Sun</td>
+  <td class=xl74 width=176 style='border-top:none;border-left:none;width:176pt'>STP</td>
+  <td class=xl74 width=80 style='border-top:none;border-left:none;width:80pt'>Information
+  Only</td>
+  <td class=xl73 width=70 style='border-top:none;border-left:none;width:70pt'>200</td>
+  <td class=xl73 width=77 style='border-top:none;border-left:none;width:77pt'>5000</td>
+  <td class=xl73 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl74 width=85 style='border-top:none;border-left:none;width:85pt'>UW<span
+  style="mso-spacerun:yes"> </span></td>
+  <td class=xl74 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>20-Jul</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Under
+  and Over Snoqualmie Pass</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Mark
+  Peterson</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>approx
+  40</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>2000+/-</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>to
+  be announced</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>off
+  I-90, specific location to be announced, req's mtn/cross bike</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl72 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>25-Jul</td>
+  <td class=xl73 width=60 style='border-top:none;border-left:none;width:60pt'>Thur</td>
+  <td class=xl74 width=176 style='border-top:none;border-left:none;width:176pt'>RAMROD</td>
+  <td class=xl74 width=80 style='border-top:none;border-left:none;width:80pt'>Information
+  Only</td>
+  <td class=xl73 width=70 style='border-top:none;border-left:none;width:70pt'>154</td>
+  <td class=xl73 width=77 style='border-top:none;border-left:none;width:77pt'>10000</td>
+  <td class=xl73 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl74 width=85 style='border-top:none;border-left:none;width:85pt'>Enumclaw</td>
+  <td class=xl75 width=262 style='border-top:none;border-left:none;width:262pt'>http://www.redmondcyclingclub.org/RAMROD/RAMROD.html</td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl85 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>3-Aug</td>
+  <td class=xl86 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl87 width=176 style='border-top:none;border-left:none;width:176pt'>Lake
+  Chaplain</td>
+  <td class=xl87 width=80 style='border-top:none;border-left:none;width:80pt'>Jim
+  Stewart</td>
+  <td class=xl86 width=70 style='border-top:none;border-left:none;width:70pt'>56</td>
+  <td class=xl86 width=77 style='border-top:none;border-left:none;width:77pt'>2900</td>
+  <td class=xl86 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl87 width=85 style='border-top:none;border-left:none;width:85pt'>Snohomish</td>
+  <td class=xl87 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl72 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>27-Jul</td>
+  <td class=xl73 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl88 width=176 style='border-top:none;border-left:none;width:176pt'>Seattle
+  Century</td>
+  <td class=xl74 width=80 style='border-top:none;border-left:none;width:80pt'>Information
+  Only</td>
+  <td class=xl73 width=70 style='border-top:none;border-left:none;width:70pt'>100</td>
+  <td class=xl73 width=77 style='border-top:none;border-left:none;width:77pt'>5000</td>
+  <td class=xl73 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl74 width=85 style='border-top:none;border-left:none;width:85pt'>Sand
+  Point Magnuson Park</td>
+  <td class=xl74 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl65 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>28-Jul</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Tour
+  de Kitsap</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Tom
+  Tanner</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>varies</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>Varies</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Coleman
+  Dock</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl65 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>10-Aug</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Mount
+  Baker</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Phi
+  Nguyen</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>50</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>5000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>Varies</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Glacier</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl89 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>8/16 - 8/17</td>
+  <td class=xl89 width=60 style='border-top:none;border-left:none;width:60pt'>Fri/Sat</td>
+  <td class=xl90 width=176 style='border-top:none;border-left:none;width:176pt'>RSVP
+  # 1</td>
+  <td class=xl90 width=80 style='border-top:none;border-left:none;width:80pt'>Tom
+  Tanner</td>
+  <td class=xl89 width=70 style='border-top:none;border-left:none;width:70pt'>185</td>
+  <td class=xl89 width=77 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl89 width=59 style='border-top:none;border-left:none;width:59pt'>Varies</td>
+  <td class=xl90 width=85 style='border-top:none;border-left:none;width:85pt'>Sand
+  Point Magnuson Park</td>
+  <td class=xl87 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl73 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>8/17 - 8/18</td>
+  <td class=xl73 width=60 style='border-top:none;border-left:none;width:60pt'>Sat/Sun</td>
+  <td class=xl74 width=176 style='border-top:none;border-left:none;width:176pt'>RSVP
+  # 2</td>
+  <td class=xl74 width=80 style='border-top:none;border-left:none;width:80pt'>Information
+  Only</td>
+  <td class=xl73 width=70 style='border-top:none;border-left:none;width:70pt'>185</td>
+  <td class=xl73 width=77 style='border-top:none;border-left:none;width:77pt'>&nbsp;</td>
+  <td class=xl73 width=59 style='border-top:none;border-left:none;width:59pt'>&nbsp;</td>
+  <td class=xl74 width=85 style='border-top:none;border-left:none;width:85pt'>Sand
+  Point Magnuson Park</td>
+  <td class=xl74 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl66 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>8/24 - 8/25</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat/Sun</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>RAPSody</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>TBD</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>175</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>9000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>Varies</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Tacoma
+  CC</td>
+  <td class=xl76 width=262 style='border-top:none;border-left:none;width:262pt'>http://www.rapsodybikeride.com/</td>
+ </tr>
+ <tr height=13 style='height:13.0pt'>
+  <td height=13 class=xl65 width=71 style='height:13.0pt;border-top:none;
+  width:71pt'>2-Sep</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Mon</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>COGS'
+  PROS Ride (Labor Day)</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Martha/Lee</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>50-85</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>3000-5500</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>Varies</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Discovery
+  Park</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>7-Sep</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl69 width=176 style='border-top:none;border-left:none;width:176pt'>Pizza,
+  Pedal &amp; Run</td>
+  <td class=xl69 width=80 style='border-top:none;border-left:none;width:80pt'>Dennis
+  Counts</td>
+  <td class=xl91 width=70 style='border-top:none;border-left:none;width:70pt'>TBD</td>
+  <td class=xl91 width=77 style='border-top:none;border-left:none;width:77pt'>TBD</td>
+  <td class=xl91 width=59 style='border-top:none;border-left:none;width:59pt'>Varies</td>
+  <td class=xl69 width=85 style='border-top:none;border-left:none;width:85pt'>Bremerton<span
+  style="mso-spacerun:yes"> </span></td>
+  <td class=xl69 width=262 style='border-top:none;border-left:none;width:262pt'>Sponsored
+  by Bremerton School Foundation</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>8-Sep</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Rollercoaster
+  (Southworth to Gig Harbor)</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Ralph
+  Nussbaum</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>60</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>3000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>HM/LB</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Fauntleroy
+  Ferry Park</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>8-Sep</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sun</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Rollercoaster
+  (Southworth to Gig Harbor)</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Carol<span
+  style="mso-spacerun:yes">  </span>Nussbaum</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>TBD</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>TBD</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Fauntleroy
+  Ferry Park</td>
+  <td class=xl87 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=65 style='height:65.0pt'>
+  <td height=65 class=xl65 width=71 style='height:65.0pt;border-top:none;
+  width:71pt'>14-Sep</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Interurban
+  Trail &amp; Mukileteo</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Peter
+  Krippner</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>49</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>1380</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Park
+  &amp; Ride 236th Southwest MountLake Terrace</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=39 style='height:39.0pt'>
+  <td height=39 class=xl65 width=71 style='height:39.0pt;border-top:none;
+  width:71pt'>21-Sep</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Renton/Black
+  Diamond/Cumberland &amp; Mirrormont Area</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Don
+  Von Essen</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>50</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>TBD</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>HM/LB</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>Ron
+  Regis Park in Renton</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>Light
+  lunch at Black Diamond Bakery</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>5-Oct</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Goldbar-Stevens
+  Pass Ride</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Ralph
+  Nussbaum</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>85</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>5000</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>HM/LB</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>TBD</td>
+  <td class=xl67 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+ <tr height=26 style='height:26.0pt'>
+  <td height=26 class=xl65 width=71 style='height:26.0pt;border-top:none;
+  width:71pt'>5-Oct</td>
+  <td class=xl66 width=60 style='border-top:none;border-left:none;width:60pt'>Sat</td>
+  <td class=xl67 width=176 style='border-top:none;border-left:none;width:176pt'>Goldbar-Stevens
+  Pass Ride</td>
+  <td class=xl67 width=80 style='border-top:none;border-left:none;width:80pt'>Carol
+  Nussbaum</td>
+  <td class=xl66 width=70 style='border-top:none;border-left:none;width:70pt'>TBD</td>
+  <td class=xl66 width=77 style='border-top:none;border-left:none;width:77pt'>TBD</td>
+  <td class=xl66 width=59 style='border-top:none;border-left:none;width:59pt'>M</td>
+  <td class=xl67 width=85 style='border-top:none;border-left:none;width:85pt'>TBD</td>
+  <td class=xl87 width=262 style='border-top:none;border-left:none;width:262pt'>&nbsp;</td>
+ </tr>
+</table>
+
+</body>
+
+</html>
