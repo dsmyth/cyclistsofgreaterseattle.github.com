@@ -24,16 +24,20 @@ color: #4F5D7F;
 
 #wrap {
 margin: 20px auto 10px auto;
-width: 800px;
+width: 1000px;
 background: #fff; /* was #fff */
 padding: 10px;
 border: 5px solid #000;
+table-layout:fixed;
+overflow:auto;
+word-wrap:break-word;
 }
 
 #header {
 height: 150px;
-width: 800px;
+width: 1000px;
 background: url(Images/SistersRide-800-150.JPG) no-repeat;
+background-position: center;
 }
 
 #header h1 {
@@ -80,7 +84,7 @@ padding: 0 20px 20px 0;
 
 .right {
 float: right;
-width: 530px;
+width: 730px;
 text-align: justify;
 padding-top: 5px;
 }
@@ -147,4 +151,44 @@ list-style-type: square;
 
 .right h3 {
 padding: 15px 0 7px 0;
+}
+
+.highlight #ridetable tbody tr.even:hover, #ridetable tbody tr.even td.highlighted {
+	background-color: #ECFFB3;
+}
+
+.highlight #ridetable tbody tr.odd:hover, #ridetable tbody tr.odd td.highlighted {
+	background-color: #E6FF99;
+}
+
+.highlight_row #ridetable tr.even:hover {
+	background-color: #ECFFB3;
+}
+
+.highlight_row #ridetable tr.even:hover td.sorting_1 {
+	background-color: #DDFF75;
+}
+
+.highlight_row #ridetable tr.even:hover td.sorting_2 {
+	background-color: #E7FF9E;
+}
+
+.highlight_row #ridetable tr.even:hover td.sorting_3 {
+	background-color: #E2FF89;
+}
+
+.highlight_row #ridetable tr.odd:hover {
+	background-color: #E6FF99;
+}
+
+.highlight_row #ridetable tr.odd:hover td.sorting_1 {
+	background-color: #D6FF5C;
+}
+
+.highlight_row #ridetable tr.odd:hover td.sorting_2 {
+	background-color: #E0FF84;
+}
+
+.highlight_row #ridetable tr.odd:hover td.sorting_3 {
+	background-color: #DBFF70;
 }
