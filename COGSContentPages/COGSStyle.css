@@ -102,6 +102,10 @@ text-decoration: none;
 .right h2 a:hover {
 }
 
+.right li {
+margin: 1em 0;
+}
+
 .left {
 float: left;
 width: 230px;
