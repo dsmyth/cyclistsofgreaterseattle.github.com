@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!-- template edited by Tom Potter -->
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=us-ascii" />
+    <title>COGS - Cyclists of Greater Seattle </title>
+    <meta content="English" http-equiv="Content-Language" />
+    <script type="text/javascript"> document.write("<base href='http://" + document.location.host + "' />"); </script>
+    <link media="screen" href="COGSContentPages/COGSStyle.css" type="text/css" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="scripts/COGS.js" type="text/javascript"></script>
+    <script type="text/javascript">function loadMemberWaiver(){$("#MemberWaiver").load("COGSContentPages/MemberWaiver.html");}</script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="COGSHeader"></div>
+      <script type="text/javascript">loadCOGSHeader()</script>
+      <div id="COGSMenu"></div>
+      <script type="text/javascript">loadCOGSMenu()</script>
+      <div id="content">
+        <div class="right">
+          <div id="MemberWaiver"></div>
+          <script type="text/javascript">loadMemberWaiver()</script> </div>
+        <div class="left">
+          <div id="COGSLeft"></div>
+          <script type="text/javascript">loadCOGSLeft()</script> </div>
+        <div style="clear: both"> </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="COGSFooter"></div>
+      <script type="text/javascript">loadCOGSFooter()</script> </div>
+    
+  </body>
+</html>
